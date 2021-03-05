@@ -13,10 +13,8 @@
         <a class="mr-5 hover:text-gray-900">Contact us</a>
       </nav>
 
-      <LanguageSwitcher class="mr-2" />
-      <ThemeSwitcher class="mr-2" />
       <button
-        class="inline-flex items-center text-sm py-1.5 px-3 bg-gradient-to-r from-primary-600 to-secondary-600 border-0 focus:outline-none hover:from-primary-600 hover:to-secondary-700 rounded-full text-white mt-4 md:mt-0"
+        class="inline-flex items-center text-base py-1.5 px-3 bg-gradient-to-r from-primary-600 to-secondary-600 border-0 focus:outline-none hover:from-primary-600 hover:to-secondary-700 rounded-full text-white mt-4 md:mt-0"
       >
         Documentation
         <svg
@@ -38,10 +36,8 @@
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component'
 import Logo from './Logo.vue'
-import LanguageSwitcher from './LanguageSwitcher.vue'
-import ThemeSwitcher from './ThemeSwitcher.vue'
 
-@Options({ components: { Logo, LanguageSwitcher, ThemeSwitcher } })
+@Options({ components: { Logo } })
 export default class Header extends Vue {}
 </script>
 

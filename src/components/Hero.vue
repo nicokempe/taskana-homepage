@@ -7,7 +7,7 @@
       >
         <div class="title text-center xl:text-left text-gray-900 dark:text-gray-100">
           <h1 class="text-4xl sm:text-5xl lg:text-6xl leading-none font-extrabold tracking-wider mb-4">
-            {{ $t('hero.title') }}
+            <Logo />
           </h1>
           <h2 class="text-2xl sm:text-3xl lg:text-4xl leading-none font-bold tracking-tight ">
             {{ $t('hero.subtitle') }}
@@ -21,9 +21,10 @@
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component'
 import Header from './header/Header.vue'
+import Logo from './header/Logo.vue'
 
 @Options({
-  components: { Header }
+  components: { Header, Logo }
 })
 export default class Hero extends Vue {
   created() {

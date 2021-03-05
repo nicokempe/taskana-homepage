@@ -1,14 +1,14 @@
 <template>
   <div class="inline-flex">
     <button
-      class="w-12 border-r-2 font-medium px-2 rounded-l-md focus:outline-none"
+      class="w-12 border-r-2 text-gray-700 dark:text-gray-300 font-medium px-2 rounded-l-md focus:outline-none"
       :class="{ 'font-bold text-gray-900 dark:text-gray-100': lang === 'en' }"
       @click="$i18n.locale = 'en'"
     >
       EN
     </button>
     <button
-      class="w-12 font-medium px-2 rounded-r-md focus:outline-none"
+      class="w-12 font-medium text-gray-700 dark:text-gray-300 px-2 rounded-r-md focus:outline-none"
       :class="{ 'font-bold text-gray-900 dark:text-gray-100': lang === 'de' }"
       @click="$i18n.locale = 'de'"
     >

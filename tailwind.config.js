@@ -28,11 +28,21 @@ module.exports = {
           '800': '#20718f',
           '900': '#1a5c75'
         }
+      },
+      animation: {
+        pulse: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite'
+      },
+      transitionProperty: {
+        height: 'height',
+        width: 'width'
       }
     }
   },
   variants: {
-    extend: {}
+    extend: {
+      height: ['hover', 'focus', 'active', 'responsive', 'group-hover'],
+      width: ['hover', 'focus', 'active', 'responsive', 'group-hover']
+    }
   },
   plugins: []
 }

@@ -9,6 +9,13 @@ import { Options, Vue } from 'vue-class-component'
 export default class ThemeSwitcher extends Vue {
   isDark = false
 
+  created() {
+    const darkThemeMq = window.matchMedia('(prefers-color-scheme: dark)')
+    if (darkThemeMq.matches) {
+      this.switchTheme()
+    }
+  }
+
   switchTheme() {
     this.isDark = !this.isDark
     const app = document.querySelector('html')

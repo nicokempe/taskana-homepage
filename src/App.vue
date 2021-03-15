@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen overflow-hidden bg-gray-50 dark:bg-gray-900">
+  <div class="min-h-screen max-w-screen overflow-x-hidden bg-gray-50 dark:bg-gray-900">
     <Hero />
     <Solution />
     <Reference />

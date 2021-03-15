@@ -25,14 +25,24 @@
             </a>
           </div>
         </div>
-        <div class="hero__frame w-1/2 h-5/6">
+        <div class="hero__frame w-1/2 h-5/6 relative">
+          <div class="h-full">
+            <img
+              class="absolute h-full max-w-max  shadow-2xl"
+              src="preview.png"
+              alt="TASKANA preview"
+              title="TASKANA preview"
+            />
+          </div>
+          <!-- 
           <div
-            class="bg-blue-900 rounded-3xl h-full grid place-items-center text-white text-3xl"
+            class="absolute top-0 z-0 bg-blue-900 rounded-3xl h-full grid place-items-center text-white text-3xl"
             style="width: 1000px;   filter: blur(50px);
 "
           >
             PLACEHOLDER
           </div>
+           -->
         </div>
       </div>
       <div class="mt-8 flex items-center justify-center hidden">
@@ -50,7 +60,7 @@
       </div>
     </div>
   </div>
-  <div class="hero__background absolute w-screen h-96" style="top: 220px"></div>
+  <div class="hero__background absolute h-96" style="top: 220px; width: calc(100vw - 16px)"></div>
 </template>
 
 <script lang="ts">

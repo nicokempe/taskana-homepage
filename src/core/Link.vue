@@ -24,7 +24,7 @@ import { copyUrl } from '@/utils/copyUrl.ts'
 class Props {
   path = prop({ default: '' })
 }
-export default class Link extends Vue.with(Props) {
+export default class Link extends Vue.with(Props) { 
   copyUrl = copyUrl
 }
 </script>

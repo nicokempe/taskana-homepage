@@ -1,5 +1,5 @@
 <template>
-  <div id="reference" class="content-wrapper min-h-screen pt-36">
+  <div id="reference" class="content-wrapper pt-36">
     <p class="content-title">
       References
       <Link path="#reference" />

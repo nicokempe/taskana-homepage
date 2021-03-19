@@ -26,9 +26,9 @@
           </div>
         </div>
         <div class="hero__frame w-1/2 h-5/6 relative">
-          <div class="h-full">
+          <div class="h-full rounded-lg">
             <img
-              class="absolute h-full max-w-max  shadow-2xl"
+              class="absolute h-full max-w-max rounded-lg shadow-2xl"
               src="preview.png"
               alt="TASKANA preview"
               title="TASKANA preview"

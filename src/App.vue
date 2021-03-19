@@ -2,6 +2,7 @@
   <div class="min-h-screen max-w-screen overflow-x-hidden bg-gray-50 dark:bg-gray-900">
     <Hero />
     <Solution />
+    <Technology />
     <Reference />
     <Contact />
     <Footer />
@@ -18,6 +19,7 @@
 import { Options, Vue } from 'vue-class-component'
 import Hero from './components/Hero.vue'
 import Solution from './components/Solution.vue'
+import Technology from './components/Technology.vue'
 import Reference from './components/Reference.vue'
 import Contact from './components/Contact.vue'
 import Footer from './components/Footer.vue'
@@ -28,6 +30,7 @@ import ThemeSwitcher from './components/header/ThemeSwitcher.vue'
   components: {
     Hero,
     Solution,
+    Technology,
     Reference,
     Contact,
     Footer,

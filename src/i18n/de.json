@@ -1,4 +1,15 @@
 {
   "hero.title": "TASKANA",
-  "hero.subtitle": "Die führende Open Source Lösung für Unternehmen"
+  "hero.subtitle": "Die führende Open Source Lösung für Unternehmen",
+  "hero.actionButtonPrimary": "Mehr erfahren",
+  "hero.actionButtonAlt": "Arbeiten Sie mit uns",
+  "solution.headline": "Erfahren Sie mehr über unsere Lösung",
+  "solution.title1": "Postkorb/Aufgabenliste",
+  "solution.description1": "Der zentrale Aspekt bei TASKANA ist selbstverständlich die Verwaltung des Aufgabenbestands – dies erfolgt über Postkörbe, auch Aufgabenlisten genannt. Dabei wird zwischen persönlichen, Team- und Themenpostkörben unterschieden. Über die konfigurierbaren Postkörbe lässt sich flexibel die Ablauforganisation Ihres Unternehmens abbilden. Berechtigungen sorgen dafür, dass jeder Mitarbeiter nur den relevanten und erlaubten Ausschnitt aus der gesamten Aufgabenmenge sieht.",
+  "solution.title2": "Routing/Verteilung",
+  "solution.description2": "TASKANA bietet verschiedene Routing- und Verteilungsfunktionen an, um eingehende Aufgaben den richtigen Postkörben zuzuweisen, oder diese zwischen den Postkörben neu zu verteilen.",
+  "solution.title3": "Priorisierung",
+  "solution.description3": "Über die dynamischen Priorisierungsfunktionen bei TASKANA lässt sich die Bearbeitungsreihenfolge der Aufgaben jederzeit steuern. So wird sichergestellt, dass immer die wichtigsten Aufgaben zuerst angegangen werden.",
+  "solution.title4": "Monitoring",
+  "solution.description4": "Um den Überblick über einen großen Arbeitsvorrat zu behalten, bietet TASKANA diverse Übersichten an, die eine Überwachung in Echtzeit erlauben. Aus diesen Ansichten heraus können die Aufgaben bei Bedarf wiederum neu verteilt und zugewiesen werden."
 }

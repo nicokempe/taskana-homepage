@@ -32,18 +32,11 @@ module.exports = {
       },
       animation: {
         pulse: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite'
-      },
-      transitionProperty: {
-        height: 'height',
-        width: 'width'
       }
     }
   },
   variants: {
-    extend: {
-      height: ['hover', 'focus', 'active', 'responsive', 'group-hover'],
-      width: ['hover', 'focus', 'active', 'responsive', 'group-hover']
-    }
+    extend: {}
   },
   plugins: []
 }

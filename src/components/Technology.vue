@@ -4,6 +4,7 @@
       Technology
       <Link path="#technology" />
     </p>
+    <div class="bg-white dark:bg-gray-800 dark:bg-opacity-50 h-screen">atest</div>
   </div>
 </template>
 

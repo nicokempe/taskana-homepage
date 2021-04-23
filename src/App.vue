@@ -1,5 +1,6 @@
 <template>
   <div class="min-h-screen max-w-screen overflow-x-hidden bg-gray-50 dark:bg-gray-900">
+    <Header />
     <Hero />
     <Solution />
     <Technology />
@@ -17,6 +18,7 @@
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component'
+import Header from './components/header/Header.vue'
 import Hero from './components/Hero.vue'
 import Solution from './components/Solution.vue'
 import Technology from './components/Technology.vue'
@@ -28,6 +30,7 @@ import ThemeSwitcher from './components/header/ThemeSwitcher.vue'
 
 @Options({
   components: {
+    Header,
     Hero,
     Solution,
     Technology,

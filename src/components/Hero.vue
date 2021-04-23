@@ -1,9 +1,10 @@
 <template>
   <div id="hero" class="relative z-10 max-w-screen-lg xl:max-w-screen-xl mx-auto">
-    <div class="" style="height: 75vh">
-      <Header class="sticky top-0" />
+    <div class="h-[85vh]">
       <div class="h-5/6 pt-10 text-gray-800 dark:text-gray-200 flex flex-col md:flex-row items-center space-between">
-        <div class="hero__title w-full md:w-1/2 text-center xl:text-left text-gray-900 dark:text-gray-100">
+        <div
+          class="hero__title w-full md:w-1/2 mt-20 md:mt-0 text-center xl:text-left text-gray-900 dark:text-gray-100"
+        >
           <h1 class="content-title mb-4">
             {{ $t('hero.title') }}
           </h1>
@@ -15,20 +16,20 @@
               class="flex justify-center items-center py-3 px-4 my-0 mr-4 ml-0 text-base font-bold leading-6 text-center text-white normal-case bg-primary-500 hover:bg-primary-700 dark:bg-primary-700 dark:hover:bg-primary-800 bg-none rounded-lg transition duration-75 ease-in-out cursor-pointer shadow-xs"
               href="#solution"
             >
-              Learn more
+              {{ $t('hero.actionButtonPrimary') }}
             </a>
             <a
               class="flex justify-center items-center py-3 px-4 my-0 mr-4 ml-0 text-base font-bold leading-6 text-center text-white normal-case bg-secondary-600 hover:bg-secondary-700 dark:bg-secondary-700 dark:hover:bg-secondary-800 bg-none rounded-lg transition duration-75 ease-in-out cursor-pointer shadow-xs"
               href="#contact"
             >
-              Work with us
+              {{ $t('hero.actionButtonAlt') }}
             </a>
           </div>
         </div>
-        <div class="hero__frame w-1/2 h-5/6 relative">
-          <div class="h-full rounded-lg">
+        <div class="hero__frame w-full md:w-1/2 h-full md:h-5/6 mt-20 md:mt-0 relative">
+          <div class="md:px-0 h-full md:w-full rounded-lg">
             <img
-              class="absolute h-full max-w-max rounded-lg shadow-2xl"
+              class="absolute md:h-full object-cover max-w-full md:max-w-max rounded-lg shadow-2xl"
               src="preview.png"
               alt="TASKANA preview"
               title="TASKANA preview"
@@ -45,7 +46,7 @@
            -->
         </div>
       </div>
-      <div class="mt-8 flex items-center justify-center hidden">
+      <div class="hidden down-arrow mt-8 flex items-center justify-center">
         <a class="focus:outline-none" href="#solution">
           <svg
             class="w-24 h-24 animate-pulse text-gray-400 dark:text-gray-600"
@@ -60,7 +61,7 @@
       </div>
     </div>
   </div>
-  <div class="hero__background absolute h-96" style="top: 220px; width: calc(100vw - 16px)"></div>
+  <div class="hero__background absolute h-96 top-[150px] md:top-[220px] w-[95vw]"></div>
 </template>
 
 <script lang="ts">

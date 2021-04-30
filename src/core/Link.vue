@@ -1,7 +1,10 @@
 <template>
   <svg
-    class="w-6 h-6 inline text-secondary-700 dark:text-secondary-600 
-        hover:text-secondary-900 dark:hover:text-secondary-400 cursor-pointer"
+    class="w-6 h-6 inline cursor-pointer"
+    :class="{
+      'text-secondary-700 dark:text-secondary-600 hover:text-secondary-900 dark:hover:text-secondary-400': !alt,
+      'text-white dark:text-secondary-400 hover:text-secondary-300 dark:hover:text-secondary-200': alt
+    }"
     @click="copyUrl(path)"
     fill="none"
     stroke="currentColor"
@@ -23,8 +26,9 @@ import { copyUrl } from '@/utils/copyUrl.ts'
 
 class Props {
   path = prop({ default: '' })
+  alt = prop({ default: false })
 }
-export default class Link extends Vue.with(Props) { 
+export default class Link extends Vue.with(Props) {
   copyUrl = copyUrl
 }
 </script>

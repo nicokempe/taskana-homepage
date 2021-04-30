@@ -1,5 +1,5 @@
 <template>
-  <div id="solution" class="content-wrapper min-h-screen pt-36">
+  <div id="solution" class="content-wrapper pt-36">
     <p class="content-title">
       {{ $t('solution.headline') }}
       <Link path="#solution" />

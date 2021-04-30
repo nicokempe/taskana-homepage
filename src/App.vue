@@ -4,6 +4,7 @@
     <Hero />
     <Solution />
     <Technology />
+    <WorkWithUs />
     <Reference />
     <Contact />
     <Footer />
@@ -22,6 +23,7 @@ import Header from './components/header/Header.vue'
 import Hero from './components/Hero.vue'
 import Solution from './components/Solution.vue'
 import Technology from './components/Technology.vue'
+import WorkWithUs from './components/WorkWithUs.vue'
 import Reference from './components/Reference.vue'
 import Contact from './components/Contact.vue'
 import Footer from './components/Footer.vue'
@@ -34,6 +36,7 @@ import ThemeSwitcher from './components/header/ThemeSwitcher.vue'
     Hero,
     Solution,
     Technology,
+    WorkWithUs,
     Reference,
     Contact,
     Footer,

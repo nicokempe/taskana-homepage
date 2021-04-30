@@ -1,5 +1,5 @@
 <template>
-  <div class="relative">
+  <div class="relative py-4">
     <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
       <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
         <div>
@@ -36,12 +36,12 @@
         <div class="mt-8 border-t border-gray-200 dark:border-gray-700 pt-6">
           <blockquote>
             <div>
-              <p class="text-base text-gray-500">
+              <p class="text-base text-gray-500 dark:text-gray-400">
                 “TASKANA ist die Beste BPM Lösung”
               </p>
             </div>
             <footer class="mt-3">
-              <div class="text-base font-medium text-gray-700">
+              <div class="text-base font-medium text-gray-700 dark:text-gray-400">
                 Chi Nguyen, Consultant
               </div>
             </footer>

@@ -46,10 +46,10 @@
            -->
         </div>
       </div>
-      <div class="hidden down-arrow mt-8 flex items-center justify-center">
+      <div class="down-arrow mt-24 md:mt-16 flex items-center justify-center">
         <a class="focus:outline-none" href="#solution">
           <svg
-            class="w-24 h-24 animate-pulse text-gray-400 dark:text-gray-600"
+            class="w-12 md:w-24 h-12 md:h-24 animate-pulse text-gray-400 dark:text-gray-600"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"

@@ -1,10 +1,15 @@
 <template>
-  <div id="technology" class="content-wrapper pt-36 ">
-    <p class="content-title">
+  <div
+    id="technology"
+    class="content-wrapper pt-16 bg-gradient-to-br from-primary-600 to-secondary-600 dark:from-primary-900 dark:to-secondary-900 dark:bg-gray-800 dark:bg-opacity-50 "
+  >
+    <p class="px-4 sm:px-6 text-3xl sm:text-4xl lg:text-5xl leading-none font-extrabold text-white tracking-tight">
       Technology
       <Link path="#technology" />
     </p>
-    <div class="bg-white dark:bg-gray-800 dark:bg-opacity-50 h-screen">atest</div>
+    <div class="h-screen px-4 sm:px-6 ">
+      atest
+    </div>
   </div>
 </template>
 

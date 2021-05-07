@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen max-w-screen overflow-x-hidden bg-gray-50 dark:bg-gray-900">
+  <div class="relative min-h-screen max-w-screen overflow-x-hidden bg-gray-50 dark:bg-gray-900">
     <Header />
     <Hero />
     <Solution />
@@ -29,6 +29,7 @@ import Contact from './components/Contact.vue'
 import Footer from './components/Footer.vue'
 import LanguageSwitcher from './components/header/LanguageSwitcher.vue'
 import ThemeSwitcher from './components/header/ThemeSwitcher.vue'
+import Notification from './core/Notification.vue'
 
 @Options({
   components: {
@@ -41,7 +42,8 @@ import ThemeSwitcher from './components/header/ThemeSwitcher.vue'
     Contact,
     Footer,
     LanguageSwitcher,
-    ThemeSwitcher
+    ThemeSwitcher,
+    Notification
   }
 })
 export default class App extends Vue {

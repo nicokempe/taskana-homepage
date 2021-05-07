@@ -5,7 +5,7 @@
         <div>
           <div>
             <span
-              class="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600"
+              class="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-br from-secondary-600 to-primary-600"
             >
               <svg
                 class="h-6 w-6 text-white"

@@ -35,21 +35,12 @@
               title="TASKANA preview"
             />
           </div>
-          <!-- 
-          <div
-            class="absolute top-0 z-0 bg-blue-900 rounded-3xl h-full grid place-items-center text-white text-3xl"
-            style="width: 1000px;   filter: blur(50px);
-"
-          >
-            PLACEHOLDER
-          </div>
-           -->
         </div>
       </div>
       <div class="down-arrow mt-24 md:mt-16 flex items-center justify-center">
-        <a class="focus:outline-none" href="#solution">
+        <a class="focus:outline-none group" href="#solution">
           <svg
-            class="w-12 md:w-24 h-12 md:h-24 animate-pulse text-gray-400 dark:text-gray-600"
+            class="w-12 md:w-24 h-12 md:h-24 group-hover:cursor-pointer animate-pulse text-gray-400 dark:text-gray-600"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"

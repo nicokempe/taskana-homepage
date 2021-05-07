@@ -1,7 +1,7 @@
 <template>
-  <span class="relative mb-6">
+  <span class="relative">
     <svg
-      class="absolute h-6 w-24 top-0 left-0"
+      class="h-6 w-24 top-0 left-0"
       data-name="Ebene 1"
       xmlns="http://www.w3.org/2000/svg"
       width="1263.1"

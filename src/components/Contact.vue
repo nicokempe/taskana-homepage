@@ -8,6 +8,12 @@
         Contact Us
         <Link path="#contact" />
       </p>
+      <div class="mt-8 px-6 text-white text-lg">
+        Sie sind neugierig, in wie weit das Open Source Tool TASKANA auch bei Ihnen eingesetzt werden kann und welchen
+        Nutzen TASKANA im Bereich der Aufgabenverwaltung für Sie hat? Dann fragen Sie doch nach einer individuellen
+        Web-Session, die wir gerne für Sie kostenfrei anbieten. Schreiben Sie uns eine Mail unter
+        taskana@novatec-gmbh.de oder rufen Sie unseren Experten direkt an!
+      </div>
       <div class="mt-8 p-4 flex justify-center">
         <div
           class="contact-info w-[90%] w-full sm:min-w-[400px] md:w-1/2 h-96 sm:h-64 bg-white rounded-md flex flex-col sm:flex-row"

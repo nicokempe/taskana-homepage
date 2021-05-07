@@ -12,5 +12,6 @@
   "solution.description3": "The dynamic prioritization functions in TASKANA allow you to control the processing sequence of tasks at any time. This ensures that the most important tasks are always addressed first.",
   "solution.title4": "Monitoring",
   "solution.description4": "To keep track of a large worklist, TASKANA offers various overviews that allow real-time monitoring. From these views, tasks can in turn be redistributed and assigned as needed.",
+  "technology.description": "Our open-source solution was realized by using the latest technologies and lean development with as few dependecies as possible. Thanks to Angular, Spring and Camunda, we are not only able to provide a stand-alone task management component, which also allowed to be integrated into larger use cases.",
   "workwithus.headline": "Work With Us"
 }

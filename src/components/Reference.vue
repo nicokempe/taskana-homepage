@@ -4,7 +4,7 @@
       References
       <Link path="#reference" />
     </p>
-    <div class="p-4 sm:p-0">
+    <div class="p-4">
       <div class="pt-16 grid grid-cols-1 md:grid-cols-3 gap-4 place-items-center">
         <a class="card" href="https://www.soka-bau.de/" target="_blank">
           <img src="sokabau.png" alt="" />

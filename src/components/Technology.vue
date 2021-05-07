@@ -10,23 +10,21 @@
       </p>
       <div class="min-h-[50vh] py-16 px-4 sm:px-6">
         <div class="technology__description pb-4 text-lg text-white text-justify">
-          Our open-source solution was realized by using the latest technologies and lean development with as few
-          dependecies as possible. Thanks to Angular, Spring and Camunda, we are not only able to provide a stand-alone
-          task management component, which also allowed to be integrated into larger use cases.
+          {{ $t('technology.description') }}
         </div>
 
         <div class="pt-8 grid grid-cols-1 lg:grid-cols-3 gap-4">
-          <div class="max-w-md h-32 border-l-[6px] border-red-500 rounded bg-white flex flex-row">
+          <div class="h-32 border-l-[6px] border-red-500 rounded bg-white flex flex-row">
             <div class="angular-icon relative w-full h-full">
               <img class="absolute top-0 h-full w-full object-contain" src="angular.png" />
             </div>
           </div>
-          <div class="max-w-md h-32 border-l-[6px] border-green-600 rounded p-8 bg-white flex flex-row">
+          <div class="h-32 border-l-[6px] border-green-500 rounded p-8 bg-white flex flex-row">
             <div class="angular-icon relative w-full h-full">
               <img class="absolute top-0 h-full w-full object-contain" src="spring.png" />
             </div>
           </div>
-          <div class="max-w-md h-32 border-l-[6px] border-gray-700 rounded p-8 bg-white flex flex-row">
+          <div class="h-32 border-l-[6px] border-gray-700 rounded p-8 bg-white flex flex-row">
             <div class="angular-icon relative w-full h-full">
               <img class="absolute top-0 h-full w-full object-contain" src="camunda.svg" />
             </div>

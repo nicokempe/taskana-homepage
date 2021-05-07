@@ -1,17 +1,17 @@
 <template>
-  <div id="hero" class="relative z-10 max-w-screen-lg xl:max-w-screen-xl mx-auto">
+  <div id="hero" class="relative z-10 max-w-screen-lg xl:max-w-screen-xl mx-auto pb-16">
     <div class="h-[85vh]">
-      <div class="h-5/6 pt-10 text-gray-800 dark:text-gray-200 flex flex-col md:flex-row items-center space-between">
-        <div
-          class="hero__title w-full md:w-1/2 mt-20 md:mt-0 text-center xl:text-left text-gray-900 dark:text-gray-100"
-        >
+      <div
+        class="h-5/6 pt-10 text-gray-800 dark:text-gray-200 flex flex-col lg:flex-row justify-center items-center space-between"
+      >
+        <div class="hero__title w-full md:w-1/2 md:mt-0 text-center lg:text-left text-gray-900 dark:text-gray-100">
           <h1 class="content-title mb-4">
             {{ $t('hero.title') }}
           </h1>
           <h2 class="text-2xl sm:text-3xl lg:text-4xl leading-none font-bold tracking-tight ">
             {{ $t('hero.subtitle') }}
           </h2>
-          <div class="mt-12 flex flex-row justify-center md:justify-start">
+          <div class="mt-12 flex flex-row justify-center lg:justify-start">
             <a
               class="flex justify-center items-center py-3 px-4 my-0 mr-4 ml-0 text-base font-bold leading-6 text-center text-white normal-case bg-primary-500 hover:bg-primary-700 dark:bg-primary-700 dark:hover:bg-primary-800 bg-none rounded-lg transition duration-75 ease-in-out cursor-pointer shadow-xs"
               href="#solution"
@@ -26,7 +26,7 @@
             </a>
           </div>
         </div>
-        <div class="hero__frame w-full md:w-1/2 h-full md:h-5/6 mt-20 md:mt-0 relative">
+        <div class="hero__frame hidden lg:block w-full lg:w-1/2 h-full lg:h-5/6 mt-20 md:mt-0 relative">
           <div class="md:px-0 h-full md:w-full rounded-lg">
             <img
               class="absolute md:h-full object-cover max-w-full md:max-w-max rounded-lg shadow-2xl"

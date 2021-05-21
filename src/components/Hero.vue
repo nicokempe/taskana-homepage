@@ -20,7 +20,7 @@
             </a>
             <a
               class="flex justify-center items-center py-3 px-4 my-0 mr-4 ml-0 text-base font-bold leading-6 text-center text-white normal-case bg-secondary-600 hover:bg-secondary-700 dark:bg-secondary-700 dark:hover:bg-secondary-800 bg-none rounded-lg transition duration-75 ease-in-out cursor-pointer shadow-xs"
-              href="#contact"
+              href="#work-with-us"
             >
               {{ $t('hero.actionButtonAlt') }}
             </a>
@@ -52,7 +52,7 @@
       </div>
     </div>
   </div>
-  <div class="hero__background absolute h-96 top-[150px] md:top-[220px] w-[95vw]"></div>
+  <div class="hero__background absolute h-96 top-[150px] md:top-[260px] w-[95vw]"></div>
 </template>
 
 <script lang="ts">

@@ -6,10 +6,28 @@
     </p>
 
     <div class="relative pt-16 overflow-hidden">
-      <Feature :title="$t('solution.title1')" :description="$t('solution.description1')" />
-      <FeatureAlt :title="$t('solution.title2')" :description="$t('solution.description2')" />
-      <Feature :title="$t('solution.title3')" :description="$t('solution.description3')" />
-      <FeatureAlt :title="$t('solution.title4')" :description="$t('solution.description4')" />
+      <Feature
+        :title="$t('solution.title1')"
+        :description="$t('solution.description1')"
+        :imgUrl="$t('solution.title1')"
+      />
+      <FeatureAlt
+        :title="$t('solution.title2')"
+        :description="$t('solution.description2')"
+        :imgUrl="$t('solution.title1')"
+      />
+
+      <Feature
+        :title="$t('solution.title3')"
+        :description="$t('solution.description3')"
+        :imgUrl="$t('solution.title1')"
+      />
+
+      <FeatureAlt
+        :title="$t('solution.title4')"
+        :description="$t('solution.description4')"
+        :imgUrl="$t('solution.title1')"
+      />
     </div>
     <div class="solution__background-transition absolute h-16 w-full top-0"></div>
   </div>

@@ -1,34 +1,30 @@
 <template>
-  <div id="work-with-us" class="content-wrapper py-16">
+  <div id="work-with-us" class="content-wrapper pt-16">
     <p class="content-title">
       {{ $t('workwithus.headline') }}
       <Link path="#work-with-us" />
     </p>
 
-    <div class="px-6 pt-12 text-gray-700 dark:text-gray-200">
-      TASKANA als Software ist Open Source und somit frei zugänglich und nutzbar. Wir unterstützen Ihr Projekt gerne um
-      sicherzustellen, dass Ihre eigenen kritischen Anwendungen, die auf TASKANA basieren, zuverlässig auch in der
-      Zukunft funktionieren werden
-      <div class="pt-12 grid grid-cols-3 gap-4 text-gray-800">
-        <div class="rounded p-4 bg-white">
-          Maßgeschneidertes Task Management – fühlt sich an wie eine Individualentwicklung, ist aber zu 70-80% Standard
+    <div class="px-6 pt-12 text-gray-600 dark:text-gray-300">
+      {{ $t('workwithus.description') }}
+      <div class="pt-12 grid grid-cols-1 md:grid-cols-3 gap-4 text-gray-700 ">
+        <div class="feature-card">
+          {{ $t('workwithus.feature1') }}
         </div>
-        <div class="rounded p-4 bg-white">
-          Kostengünstige Lösung, da ohne Lizenzkosten. Der Wartungsaufwand verteilt sich auf alle teilnehmenden Partner
+        <div class="feature-card">
+          {{ $t('workwithus.feature2') }}
         </div>
-        <div class="rounded p-4 bg-white">
-          Einflussmöglichkeit auf die funktionale Weiterentwicklung des „Standards”
+        <div class="feature-card">
+          {{ $t('workwithus.feature3') }}
         </div>
-        <div class="rounded p-4 bg-white">
-          Reduzierte Projektlaufzeit im Vergleich zu einer Individualentwicklung, da Sie große Teile der Software fertig
-          geliefert bekommen
+        <div class="feature-card">
+          {{ $t('workwithus.feature4') }}
         </div>
-        <div class="rounded p-4 bg-white">
-          Integration, Test und Deployment können sie somit über Ihre etablierten Softwareentwicklungsprozesse
-          durchführen
+        <div class="feature-card">
+          {{ $t('workwithus.feature5') }}
         </div>
-        <div class="rounded p-4 bg-white">
-          Modularer Aufbau – Sie nutzen nur die Teile von TASKANA, die für Sie einen Wert haben.
+        <div class="feature-card">
+          {{ $t('workwithus.feature6') }}
         </div>
       </div>
     </div>
@@ -45,4 +41,8 @@ import Link from '@/core/Link.vue'
 export default class WorkWithUs extends Vue {}
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+.feature-card {
+  @apply rounded p-4 bg-primary-100 dark:bg-white border-l-[6px] border-primary-500 text-left flex items-center text-sm md:text-base;
+}
+</style>

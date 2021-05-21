@@ -12,6 +12,21 @@
   "solution.description3": "The dynamic prioritization functions in TASKANA allow you to control the processing sequence of tasks at any time. This ensures that the most important tasks are always addressed first.",
   "solution.title4": "Monitoring",
   "solution.description4": "To keep track of a large worklist, TASKANA offers various overviews that allow real-time monitoring. From these views, tasks can in turn be redistributed and assigned as needed.",
+  "technology.headline": "Technology",
   "technology.description": "Our open-source solution was realized by using the latest technologies and lean development with as few dependecies as possible. Thanks to Angular, Spring and Camunda, we are not only able to provide a stand-alone task management component, which also allowed to be integrated into larger use cases.",
-  "workwithus.headline": "Work With Us"
+  "technology.features": "The open source product is divided into the following three components:",
+  "technology.feature1": "A central Java API with persistent data storage (TASKANA Core) plus an optional REST API",
+  "technology.feature2": "Three user interfaces (for administrators, for users and for management) that communicate with the core communicate via the REST interface (TASKANA Web)",
+  "technology.feature3": "An adapter for connecting third-party systems (TASKANA adapter). This offers a flexible connector concept and already provides a ready-to-use implementation for Camunda BPM",
+  "workwithus.headline": "Work With Us",
+  "workwithus.description": "TASKANA as software is open source and therefore freely accessible and usable. We are happy to support your project to ensure that your own critical applications based on TASKANA will continue to function reliably in the future",
+  "workwithus.feature1": "Tailored task management - feels like custom development, but is 70-80% standard",
+  "workwithus.feature2": "Cost-effective solution - as there are no license costs, The maintenance effort is distributed among all participating partners",
+  "workwithus.feature3": "Possibility of influencing the functional further development of the \"standard\"",
+  "workwithus.feature4": "Reduced project time compared to custom development, as you get large parts of the software delivered ready to use",
+  "workwithus.feature5": "Integration, testing and deployment can be carried out using your established software development processes",
+  "workwithus.feature6": "Modular structure - you only use the parts of TASKANA that have value for you",
+  "contact.headline": "Contact Us",
+  "contact.description1": "Are you curious to find out to what extent the open source tool TASKANA can also be used in your company and what benefits TASKANA has for you in the area of task management? Then ask for an individual web session, which we would be happy to offer you free of charge. Write us a mail at ",
+  "contact.description2": " or call our expert directly!"
 }

@@ -5,15 +5,15 @@
   >
     <div class="content z-10">
       <p class="px-4 sm:px-6 text-3xl sm:text-4xl lg:text-5xl leading-none font-extrabold text-white tracking-tight">
-        Technology
+        {{ $t('technology.headline') }}
         <Link path="#technology" alt="true" />
       </p>
-      <div class="min-h-[50vh] py-16 px-4 sm:px-6">
-        <div class="technology__description pb-4 text-lg text-white text-justify">
+      <div class="py-16 px-4 sm:px-6 text-white">
+        <div class="technology__description pb-4 text-base md:text-lg text-justify">
           {{ $t('technology.description') }}
         </div>
 
-        <div class="pt-8 grid grid-cols-1 lg:grid-cols-3 gap-4">
+        <div class="technology__stack pt-8 grid grid-cols-1 lg:grid-cols-3 gap-4">
           <div class="h-32 border-l-[6px] border-red-500 rounded bg-white flex flex-row">
             <div class="angular-icon relative w-full h-full">
               <img class="absolute top-0 h-full w-full object-contain" src="angular.png" />
@@ -28,6 +28,26 @@
             <div class="angular-icon relative w-full h-full">
               <img class="absolute top-0 h-full w-full object-contain" src="camunda.svg" />
             </div>
+          </div>
+        </div>
+
+        <div class="technology__components pt-12 flex flex-col justify-center items-center">
+          <div class="technology__components-desc text-base md:text-lg text-left">
+            <ol class="space-y-4">
+              <li>{{ $t('technology.features') }}</li>
+              <li>
+                {{ $t('technology.feature1') }}
+              </li>
+              <li>
+                {{ $t('technology.feature2') }}
+              </li>
+              <li>
+                {{ $t('technology.feature3') }}
+              </li>
+            </ol>
+          </div>
+          <div class="bg-white rounded mt-12 p-4">
+            <img class="" src="taskana-components.png" alt="TASKANA Components" />
           </div>
         </div>
       </div>

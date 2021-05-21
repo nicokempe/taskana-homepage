@@ -5,18 +5,17 @@
   >
     <div class="content z-10">
       <p class="content-title--alt">
-        Contact Us
+        {{ $t('contact.headline') }}
         <Link path="#contact" />
       </p>
-      <div class="mt-8 px-6 text-white text-lg">
-        Sie sind neugierig, in wie weit das Open Source Tool TASKANA auch bei Ihnen eingesetzt werden kann und welchen
-        Nutzen TASKANA im Bereich der Aufgabenverwaltung für Sie hat? Dann fragen Sie doch nach einer individuellen
-        Web-Session, die wir gerne für Sie kostenfrei anbieten. Schreiben Sie uns eine Mail unter
-        taskana@novatec-gmbh.de oder rufen Sie unseren Experten direkt an!
+      <div class="mt-8 px-6 text-white text-base md:text-lg">
+        {{ $t('contact.description1') }}
+        <a class="hover:text-secondary-600" href="mailto:taskana@novatec-gmbh.de">taskana@novatec-gmbh.de</a>
+        {{ $t('contact.description2') }}
       </div>
-      <div class="mt-8 p-4 flex justify-center">
+      <div class="mt-8 py-4 flex justify-center">
         <div
-          class="contact-info w-[90%] w-full sm:min-w-[400px] md:w-1/2 h-96 sm:h-64 bg-white rounded-md flex flex-col sm:flex-row"
+          class="contact-info w-[90%] sm:min-w-[400px] md:w-1/2 h-96 sm:h-64 bg-white rounded-md flex flex-col sm:flex-row"
         >
           <div class="avatar relative pt-2 sm:pt-0 h-48 w-48 sm:h-auto sm:w-64 mx-auto sm:mx-0">
             <img
@@ -44,7 +43,9 @@
                   d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
                 ></path>
               </svg>
-              <a href="mailto:holger.hagen@novatec-gmbh.de" class="select-all">holger.hagen@novatec-gmbh.de</a>
+              <a class="hover:text-secondary-600 select-all" href="mailto:holger.hagen@novatec-gmbh.de">
+                holger.hagen@novatec-gmbh.de
+              </a>
             </div>
             <div class="text-gray-700">
               <svg
@@ -62,7 +63,9 @@
                 ></path>
               </svg>
               <a class="select-all hidden sm:inline-block">+49 711 22040-827</a>
-              <a href="callto:+4971122040-827" class="select-all inline-block sm:hidden">+49 711 22040-827</a>
+              <a href="callto:+4971122040-827" class="select-all inline-block sm:hidden">
+                +49 711 22040-827
+              </a>
             </div>
           </div>
         </div>

@@ -12,6 +12,21 @@
   "solution.description3": "Über die dynamischen Priorisierungsfunktionen bei TASKANA lässt sich die Bearbeitungsreihenfolge der Aufgaben jederzeit steuern. So wird sichergestellt, dass immer die wichtigsten Aufgaben zuerst angegangen werden.",
   "solution.title4": "Monitoring",
   "solution.description4": "Um den Überblick über einen großen Arbeitsvorrat zu behalten, bietet TASKANA diverse Übersichten an, die eine Überwachung in Echtzeit erlauben. Aus diesen Ansichten heraus können die Aufgaben bei Bedarf wiederum neu verteilt und zugewiesen werden.",
+  "technology.headline": "Technologie",
   "technology.description": "Unsere Open-Source-Lösung wurde durch den Einsatz neuester Technologien und schlanker Entwicklung mit möglichst wenigen Abhängigkeiten realisiert. Dank Angular, Spring und Camunda sind wir nicht nur in der Lage, eine eigenständige Task-Management-Komponente bereitzustellen, die sich auch in größere Anwendungsfälle integrieren ließ.",
-  "workwithus.headline": "Arbeiten Sie mit uns zusammen"
+  "technology.features": "Das Open Source Produkt gliedert sich in folgende drei Komponenten auf:",
+  "technology.feature1": "Eine zentrale Java-API mit einer persistenten Datenhaltung (TASKANA Core) plus einer optionalen REST-API",
+  "technology.feature2": "Drei Benutzeroberflächen (für Administratoren, für Benutzer und für das Management), die mit dem Kern über die REST-Schnittstelle kommunizieren (TASKANA Web)",
+  "technology.feature3": "Ein Adapter zum Anschluss von Drittsystemen (TASKANA Adapter). Dieser bietet ein flexibles Konnektoren-Konzept und stellt für Camunda BPM bereits eine fertige Implementierung bereit",
+  "workwithus.headline": "Arbeiten Sie mit uns zusammen",
+  "workwithus.description": "TASKANA als Software ist Open Source und somit frei zugänglich und nutzbar. Wir unterstützen Ihr Projekt gerne um sicherzustellen, dass Ihre eigenen kritischen Anwendungen, die auf TASKANA basieren, zuverlässig auch in der Zukunft funktionieren werden",
+  "workwithus.feature1": "Maßgeschneidertes Task Management – fühlt sich an wie eine Individualentwicklung, ist aber zu 70-80% Standard",
+  "workwithus.feature2": "Kostengünstige Lösung, da ohne Lizenzkosten. Der Wartungsaufwand verteilt sich auf alle teilnehmenden Partner",
+  "workwithus.feature3": "Einflussmöglichkeit auf die funktionale Weiterentwicklung des „Standards”",
+  "workwithus.feature4": "Reduzierte Projektlaufzeit im Vergleich zu einer Individualentwicklung, da Sie große Teile der Software fertig geliefert bekommen",
+  "workwithus.feature5": "Integration, Test und Deployment können sie somit über Ihre etablierten Softwareentwicklungsprozesse durchführen",
+  "workwithus.feature6": "Modularer Aufbau – Sie nutzen nur die Teile von TASKANA, die für Sie einen Wert haben",
+  "contact.headline": "Ihr Ansprechpartner",
+  "contact.description1": "Sie sind neugierig, in wie weit das Open Source Tool TASKANA auch bei Ihnen eingesetzt werden kann und welchen Nutzen TASKANA im Bereich der Aufgabenverwaltung für Sie hat? Dann fragen Sie doch nach einer individuellen Web-Session, die wir gerne für Sie kostenfrei anbieten. Schreiben Sie uns eine Mail unter ",
+  "contact.description2": " oder rufen Sie unseren Experten direkt an!"
 }

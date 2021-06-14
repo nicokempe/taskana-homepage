@@ -2,23 +2,17 @@
   <header
     class="text-gray-600 dark:text-gray-300 max-h-[60px] overflow-hidden z-10 max-w-screen-lg xl:max-w-screen-xl mx-auto"
   >
-    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center ">
-      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+    <div class="container mx-auto flex flex-wrap p-5 flex-row items-center justify-end md:justify-start">
+      <a class="hidden md:flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
         <Logo />
       </a>
 
-      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-        <!-- 
-        <a class="mr-5 link" href="#solution">Solutions</a>
-        <a class="mr-5 link" href="#technology">Technology</a>
-        <a class="mr-5 link" href="#customers">Our customers</a>
-        <a class="mr-5 link" href="#contact">Contact us</a>
-         -->
-      </nav>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center"></nav>
+
       <ThemeSwitcher class="mr-2" />
       <LanguageSwitcher class="mr-2" />
 
-      <a href="https://github.com/taskana/taskana" class="group link mr-2 ">
+      <a class="group link mr-2" href="https://github.com/taskana/taskana" target="_blank" title="Github repository">
         <svg
           class="h-8 w-8 text-gray-700 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-gray-100"
           enable-background="new 0 0 512 512"
@@ -39,11 +33,30 @@
         </svg>
       </a>
 
-      <a class="group link w-48 h-6 ml-2 ">
+      <a
+        class="group link w-12 md:w-48 ml-2"
+        href="https://taskana.atlassian.net/wiki/spaces/TAS/overview"
+        target="_blank"
+        title="Documentation"
+      >
         <!-- h-11 px-3 py-2 border-2 border-primary-500 rounded-full -->
-        Documentation
+        <span class="hidden md:inline">Documentation</span>
         <svg
-          class="w-4 h-4 ml-1 inline group-hover:w-6 group-hover:h-6 transition-all duration-150 ease-out"
+          class="h-8 w-8 block md:hidden text-gray-700 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-gray-100"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="{2}"
+            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+          />
+        </svg>
+        <svg
+          class="w-4 h-4 ml-1 hidden md:inline group-hover:w-6 group-hover:h-6 transition-all duration-150 ease-out"
           fill="none"
           stroke="currentColor"
           stroke-linecap="round"

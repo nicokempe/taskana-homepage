@@ -42,20 +42,8 @@
           </blockquote>
         </div>
       </div>
-      <div class="px-4 mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
-        <div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-          <div class="card h-96 w-96 grid place-items-center">Bild für {{ imgUrl }}</div>
-          <!-- 
-          <div class="md:px-0 h-full md:w-full rounded-lg">
-            <img
-              class="absolute md:h-full object-cover max-w-full md:max-w-max rounded-lg shadow-2xl"
-              src="preview.png"
-              alt="TASKANA preview"
-              title="TASKANA preview"
-            />
-          </div>
-          -->
-        </div>
+      <div class="my-8 md:my-0 px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
+        <img class="w-full h-full object-contain rounded" :src="imgUrl" />
       </div>
     </div>
   </div>

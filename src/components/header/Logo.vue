@@ -69,7 +69,7 @@
         />
       </g>
     </svg>
-    <span class="tracking-tight font-bold text-xl text-black dark:text-white">TASKANA</span>
+    <span class="tracking-tight font-bold text-black dark:text-white">TASKANA</span>
   </a>
 </template>
 

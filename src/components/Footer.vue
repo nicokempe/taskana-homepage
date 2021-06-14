@@ -7,6 +7,7 @@
         <a
           class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900 cursor-pointer"
           href="https://novatec-gmbh.de"
+          target="_blank"
         >
           <Logo />
         </a>
@@ -14,70 +15,70 @@
       </div>
       <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+          <h2 class="link-header">TASKANA</h2>
           <nav class="list-none mb-10">
             <li>
-              <a class="text-gray-600 hover:text-gray-800">First Link</a>
+              <a href="https://taskana.mybluemix.net/taskana/" target="_blank">Demo</a>
             </li>
             <li>
-              <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+              <a href="https://taskana.atlassian.net/wiki/spaces/TAS/overview" target="_blank">Documentation</a>
             </li>
             <li>
-              <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+              <a href="https://github.com/Taskana/taskana" target="_blank">Github</a>
             </li>
             <li>
-              <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+              <a href="https://www.novatec-gmbh.de/beratung/enterprise-task-management/" target="_blank">Beratung</a>
             </li>
           </nav>
         </div>
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+          <h2 class="link-header">Novatec</h2>
           <nav class="list-none mb-10">
             <li>
-              <a class="text-gray-600 hover:text-gray-800">First Link</a>
+              <a>First Link</a>
             </li>
             <li>
-              <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+              <a>Second Link</a>
             </li>
             <li>
-              <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+              <a>Third Link</a>
             </li>
             <li>
-              <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+              <a>Fourth Link</a>
             </li>
           </nav>
         </div>
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+          <h2 class="link-header">Business Process Management</h2>
           <nav class="list-none mb-10">
             <li>
-              <a class="text-gray-600 hover:text-gray-800">First Link</a>
+              <a>First Link</a>
             </li>
             <li>
-              <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+              <a>Second Link</a>
             </li>
             <li>
-              <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+              <a>Third Link</a>
             </li>
             <li>
-              <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+              <a>Fourth Link</a>
             </li>
           </nav>
         </div>
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+          <h2 class="link-header">Application Architecture</h2>
           <nav class="list-none mb-10">
             <li>
-              <a class="text-gray-600 hover:text-gray-800">First Link</a>
+              <a>First Link</a>
             </li>
             <li>
-              <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+              <a>Second Link</a>
             </li>
             <li>
-              <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+              <a>Third Link</a>
             </li>
             <li>
-              <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+              <a>Fourth Link</a>
             </li>
           </nav>
         </div>
@@ -85,15 +86,12 @@
     </div>
     <div class="footer">
       <div class="content-wrapper mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-        <p class="text-gray-500 dark:text-gray-400 text-sm text-center sm:text-left">
+        <p class="text-gray-600 dark:text-gray-400 font-medium text-sm text-center sm:text-left">
           © 2021 Novatec GmbH
         </p>
 
         <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start space-x-3">
-          <a
-            class="footer__facebook text-gray-500 hover:text-gray-800 dark:hover:text-gray-200 cursor-pointer"
-            href="https://www.facebook.com/novatec.holding"
-          >
+          <a class="footer__facebook" href="https://www.facebook.com/novatec.holding">
             <svg
               fill="currentColor"
               stroke-linecap="round"
@@ -150,10 +148,7 @@
             </svg>
           </a>
 
-          <a
-            class="footer__linked-in text-gray-500 hover:text-gray-800 dark:hover:text-gray-200 cursor-pointer"
-            href="https://www.linkedin.com/company/novatec-gmbh/"
-          >
+          <a class="footer__linked-in" href="https://www.linkedin.com/company/novatec-gmbh/">
             <svg
               fill="currentColor"
               stroke="currentColor"
@@ -185,4 +180,11 @@ import Logo from '@/core/Logo.vue'
 export default class Footer extends Vue {}
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+a {
+  @apply text-gray-500 hover:text-gray-800 dark:hover:text-gray-200 cursor-pointer;
+}
+.link-header {
+  @apply font-medium text-gray-700 dark:text-gray-300 tracking-widest text-sm mb-3;
+}
+</style>

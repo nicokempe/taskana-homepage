@@ -6,6 +6,7 @@
       >
         <div class="hero__title w-full md:w-1/2 md:mt-0 text-center lg:text-left text-gray-900 dark:text-gray-100">
           <h1 class="content-title mb-4">
+            <img class="h-10 w-10 object-scale-down inline" src="logo.svg" />
             {{ $t('hero.title') }}
           </h1>
           <h2 class="text-2xl sm:text-3xl lg:text-4xl leading-none font-bold tracking-tight ">
@@ -27,14 +28,16 @@
           </div>
         </div>
         <div class="hero__frame hidden lg:block w-full lg:w-1/2 h-full lg:h-5/6 mt-20 md:mt-0 relative">
-          <div class="md:px-0 h-full md:w-full rounded-lg">
-            <img
-              class="absolute md:h-full object-cover max-w-full md:max-w-max rounded-lg shadow-2xl"
-              src="preview.png"
-              alt="TASKANA preview"
-              title="TASKANA preview"
-            />
-          </div>
+          <a href="https://taskana.mybluemix.net/taskana" target="_blank">
+            <div class="md:px-0 h-full md:w-full rounded-lg">
+              <img
+                class="absolute md:h-full object-cover max-w-full md:max-w-max rounded-lg shadow-2xl"
+                src="preview.png"
+                alt="TASKANA preview"
+                title="TASKANA preview"
+              />
+            </div>
+          </a>
         </div>
       </div>
       <div class="down-arrow mt-24 md:mt-16 flex items-center justify-center">

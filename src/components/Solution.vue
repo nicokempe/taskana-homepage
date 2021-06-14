@@ -1,33 +1,16 @@
 <template>
-  <div id="solution" class="content-wrapper pt-16">
+  <div id="solution" class="content-wrapper py-16">
     <p class="content-title">
       {{ $t('solution.headline') }}
       <Link path="#solution" />
     </p>
 
     <div class="relative pt-16 overflow-hidden">
-      <Feature
-        :title="$t('solution.title1')"
-        :description="$t('solution.description1')"
-        :imgUrl="$t('solution.title1')"
-      />
-      <FeatureAlt
-        :title="$t('solution.title2')"
-        :description="$t('solution.description2')"
-        :imgUrl="$t('solution.title1')"
-      />
+      <Feature :title="$t('solution.title1')" :description="$t('solution.description1')" imgUrl="postkorb.svg" />
+      <FeatureAlt :title="$t('solution.title2')" :description="$t('solution.description2')" imgUrl="routing.png" />
 
-      <Feature
-        :title="$t('solution.title3')"
-        :description="$t('solution.description3')"
-        :imgUrl="$t('solution.title1')"
-      />
-
-      <FeatureAlt
-        :title="$t('solution.title4')"
-        :description="$t('solution.description4')"
-        :imgUrl="$t('solution.title1')"
-      />
+      <Feature :title="$t('solution.title3')" :description="$t('solution.description3')" imgUrl="prio.png" />
+      <FeatureAlt :title="$t('solution.title4')" :description="$t('solution.description4')" imgUrl="monitor.png" />
     </div>
     <div class="solution__background-transition absolute h-16 w-full top-0"></div>
   </div>

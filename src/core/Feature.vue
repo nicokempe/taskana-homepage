@@ -27,17 +27,17 @@
           </h2>
         </div>
 
-        <p class="mt-4 text-lg text-gray-500 dark:text-gray-400">
+        <p class="mt-4 text-lg text-gray-500 dark:text-gray-300">
           {{ description }}
         </p>
 
-        <div class="mt-6 pt-4 border-t border-gray-200 dark:border-gray-700">
+        <div class="mt-6 pt-4 border-t border-gray-200 dark:border-gray-700" :class="{ hidden: comment.length === 0 }">
           <blockquote>
             <p class="text-base text-gray-500 dark:text-gray-400">
-              “TASKANA ist die Beste BPM Lösung”
+              {{ comment }}
             </p>
             <p class="mt-2 text-base font-medium text-gray-700 dark:text-gray-400">
-              Chi Nguyen, Consultant
+              {{ commentAuthor }}
             </p>
           </blockquote>
         </div>

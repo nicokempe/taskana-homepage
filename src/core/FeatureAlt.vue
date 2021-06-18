@@ -27,7 +27,7 @@
           </h2>
         </div>
 
-        <p class="mt-4 text-lg text-gray-500">
+        <p class="mt-4 text-lg text-gray-500 dark:text-gray-300">
           {{ description }}
         </p>
       </div>

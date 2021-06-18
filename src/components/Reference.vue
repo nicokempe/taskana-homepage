@@ -1,7 +1,7 @@
 <template>
   <div id="reference" class="content-wrapper py-16">
     <p class="content-title">
-      References
+      Partners
       <Link path="#reference" />
     </p>
     <div class="px-6">

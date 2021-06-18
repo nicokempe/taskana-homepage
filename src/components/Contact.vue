@@ -63,7 +63,7 @@
                 ></path>
               </svg>
               <a class="select-all hidden sm:inline-block">+49 711 22040-827</a>
-              <a href="callto:+4971122040-827" class="select-all inline-block sm:hidden">
+              <a href="tel:+4971122040-827" class="select-all inline-block sm:hidden">
                 +49 711 22040-827
               </a>
             </div>

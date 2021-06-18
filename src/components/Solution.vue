@@ -28,7 +28,7 @@ import FeatureAlt from '@/core/FeatureAlt.vue'
 export default class Solution extends Vue {}
 </script>
 
-<style>
+<style lang="scss" scoped>
 .light .solution__background-transition {
   background-image: linear-gradient(180deg, #f7fafc, white 85.77%);
 }

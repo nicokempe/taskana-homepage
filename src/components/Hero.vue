@@ -6,7 +6,7 @@
       >
         <div class="hero__title w-full md:w-1/2 md:mt-0 text-center lg:text-left text-gray-900 dark:text-gray-100">
           <h1 class="content-title mb-4">
-            <img class="h-10 w-10 object-scale-down inline" src="logo.svg" />
+            <img class="h-16 w-16 object-scale-down inline" src="logo.svg" />
             {{ $t('hero.title') }}
           </h1>
           <h2 class="text-2xl sm:text-3xl lg:text-4xl leading-none font-bold tracking-tight ">

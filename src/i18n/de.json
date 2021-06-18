@@ -19,7 +19,7 @@
   "technology.feature2": "Drei Benutzeroberflächen (für Administratoren, für Benutzer und für das Management), die mit dem Kern über die REST-Schnittstelle kommunizieren (TASKANA Web)",
   "technology.feature3": "Ein Adapter zum Anschluss von Drittsystemen (TASKANA Adapter). Dieser bietet ein flexibles Konnektoren-Konzept und stellt für Camunda BPM bereits eine fertige Implementierung bereit",
   "workwithus.headline": "Arbeiten Sie mit uns zusammen",
-  "workwithus.description": "TASKANA als Software ist Open Source und somit frei zugänglich und nutzbar. Wir unterstützen Ihr Projekt gerne um sicherzustellen, dass Ihre eigenen kritischen Anwendungen, die auf TASKANA basieren, zuverlässig auch in der Zukunft funktionieren werden",
+  "workwithus.description": "TASKANA als Software ist Open Source und somit frei zugänglich und nutzbar. Wir unterstützen Ihr Projekt gerne um sicherzustellen, dass Ihre eigenen kritischen Anwendungen, die auf TASKANA basieren, zuverlässig auch in der Zukunft funktionieren werden.",
   "workwithus.feature1": "Maßgeschneidertes Task Management – fühlt sich an wie eine Individualentwicklung, ist aber zu 70-80% Standard",
   "workwithus.feature2": "Kostengünstige Lösung, da ohne Lizenzkosten. Der Wartungsaufwand verteilt sich auf alle teilnehmenden Partner",
   "workwithus.feature3": "Einflussmöglichkeit auf die funktionale Weiterentwicklung des „Standards”",

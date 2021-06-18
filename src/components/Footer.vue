@@ -24,7 +24,7 @@
               <a href="https://taskana.atlassian.net/wiki/spaces/TAS/overview" target="_blank">Documentation</a>
             </li>
             <li>
-              <a href="https://github.com/Taskana/taskana" target="_blank">Github</a>
+              <a href="https://github.com/Taskana/taskana" target="_blank">GitHub</a>
             </li>
             <li>
               <a href="https://www.novatec-gmbh.de/beratung/enterprise-task-management/" target="_blank">Beratung</a>

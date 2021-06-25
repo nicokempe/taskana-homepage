@@ -2,7 +2,7 @@
   <header
     class="text-gray-600 dark:text-gray-300 max-h-[60px] overflow-hidden z-10 max-w-screen-lg xl:max-w-screen-xl mx-auto"
   >
-    <div class="container mx-auto flex flex-wrap p-5 flex-row items-center justify-end md:justify-start">
+    <div class="container mx-auto flex flex-wrap p-5 flex-row items-center justify-center md:justify-start">
       <a class="hidden md:flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
         <Logo />
       </a>

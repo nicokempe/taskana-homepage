@@ -23,7 +23,7 @@
           </a>
         </div>
 
-        <a class="card" href="https://www.debeka.de/" target="_blank">
+        <a class="card p-4" href="https://www.debeka.de/" target="_blank">
           <picture>
             <source srcset="debeka.webp" type="image/webp" />
             <img src="debeka.png" alt="www.debeka.de" />

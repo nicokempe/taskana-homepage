@@ -12,9 +12,15 @@
       <ThemeSwitcher class="mr-2" />
       <LanguageSwitcher class="mr-2" />
 
-      <a class="group link mr-4" href="https://taskana.mybluemix.net/taskana/" target="_blank" title="Taskana Demo">
+      <a
+        class="group link mr-4 flex items-center"
+        href="https://taskana.mybluemix.net/taskana/"
+        target="_blank"
+        title="Taskana Demo"
+      >
+        <span class="hidden md:inline md:mr-1">Demo</span>
         <svg
-          class="w-6 h-6 md:h-8 md:w-8 text-gray-700 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-gray-100"
+          class="inline w-6 h-6 md:h-8 md:w-8 text-gray-700 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-gray-100"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -28,7 +34,14 @@
           />
         </svg>
       </a>
-      <a class="group link mr-2" href="https://github.com/taskana/taskana" target="_blank" title="Github repository">
+      <a
+        class="group link mr-2 flex items-center"
+        href="https://github.com/taskana/taskana"
+        target="_blank"
+        title="Github repository"
+      >
+        <span class="hidden md:inline md:mr-1">GitHub</span>
+
         <svg
           class="h-6 w-6 md:h-8 md:w-8 text-gray-700 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-gray-100"
           enable-background="new 0 0 512 512"

@@ -30,7 +30,7 @@
             <div class="h-1 mt-4 mb-2 mx-auto sm:mx-0 bg-gradient-to-r from-primary-600 to-secondary-600 w-2/3"></div>
             <div class="text-gray-700">
               <svg
-                class="w-4 h-4 inline mr-2"
+                class="w-4 h-4 inline mr-0 md:mr-2"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"

@@ -5,12 +5,29 @@
       <Link path="#solution" />
     </p>
 
-    <div class="relative pt-16 overflow-hidden">
+    <div class="relative pt-4 lg:pt-16 overflow-hidden">
+      <div class="solution__desc text-gray-500 dark:text-gray-300 px-4 lg:px-8 my-8 md:my-0 text-base md:text-lg ">
+        {{ $t('solution.description') }}
+      </div>
       <Feature :title="$t('solution.title1')" :description="$t('solution.description1')" imgUrl="postkorb.svg" />
-      <FeatureAlt :title="$t('solution.title2')" :description="$t('solution.description2')" imgUrl="routing.png" />
-
-      <Feature :title="$t('solution.title3')" :description="$t('solution.description3')" imgUrl="prio.png" />
-      <FeatureAlt :title="$t('solution.title4')" :description="$t('solution.description4')" imgUrl="monitor.png" />
+      <FeatureAlt
+        :title="$t('solution.title2')"
+        :description="$t('solution.description2')"
+        imgUrl="routing.png"
+        altImgUrl="routing.webp"
+      />
+      <Feature
+        :title="$t('solution.title3')"
+        :description="$t('solution.description3')"
+        imgUrl="prio.png"
+        altImgUrl="prio.webp"
+      />
+      <FeatureAlt
+        :title="$t('solution.title4')"
+        :description="$t('solution.description4')"
+        imgUrl="monitor.png"
+        altImgUrl="monitor.webp"
+      />
     </div>
     <div class="solution__background-transition absolute h-16 w-full top-0"></div>
   </div>

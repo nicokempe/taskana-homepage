@@ -11,7 +11,7 @@
       <div class="py-16 px-4 sm:px-6 text-white">
         <div class="technology__components flex flex-col ">
           <div class="technology__components-desc text-base md:text-lg text-left">
-            <ul class="space-y-4 list-inside">
+            <ul class="space-y-3 list-inside">
               <li>{{ $t('technology.features') }}</li>
               <li>
                 {{ $t('technology.feature1') }}

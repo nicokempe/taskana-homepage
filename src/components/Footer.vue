@@ -13,72 +13,52 @@
         </a>
         <p class="mt-2 text-sm text-gray-500">Created with ❤️</p>
       </div>
-      <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+      <div class="flex-grow flex flex-wrap justify-end md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
           <h2 class="link-header">TASKANA</h2>
           <nav class="list-none mb-10">
             <li>
-              <a href="https://taskana.mybluemix.net/taskana/" target="_blank">Demo</a>
+              <a href="https://taskana.mybluemix.net/taskana/" target="_blank">{{ $t('footer.taskana.link1') }}</a>
             </li>
             <li>
-              <a href="https://taskana.atlassian.net/wiki/spaces/TAS/overview" target="_blank">Documentation</a>
+              <a href="https://taskana.atlassian.net/wiki/spaces/TAS/overview" target="_blank">
+                {{ $t('footer.taskana.link2') }}
+              </a>
             </li>
             <li>
-              <a href="https://github.com/Taskana/taskana" target="_blank">GitHub</a>
-            </li>
-            <li>
-              <a href="https://www.novatec-gmbh.de/beratung/enterprise-task-management/" target="_blank">Beratung</a>
-            </li>
-          </nav>
-        </div>
-        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 class="link-header">Novatec</h2>
-          <nav class="list-none mb-10">
-            <li>
-              <a>First Link</a>
-            </li>
-            <li>
-              <a>Second Link</a>
-            </li>
-            <li>
-              <a>Third Link</a>
-            </li>
-            <li>
-              <a>Fourth Link</a>
+              <a href="https://github.com/Taskana/taskana" target="_blank">{{ $t('footer.taskana.link3') }}</a>
             </li>
           </nav>
         </div>
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 class="link-header">Business Process Management</h2>
+          <h2 class="link-header">NOVATEC</h2>
           <nav class="list-none mb-10">
             <li>
-              <a>First Link</a>
+              <a href="https://www.novatec-gmbh.de/unternehmen/" target="_blank">{{ $t('footer.novatec.link1') }}</a>
             </li>
             <li>
-              <a>Second Link</a>
+              <a href="https://www.novatec-gmbh.de/beratung/" target="_blank">{{ $t('footer.novatec.link2') }}</a>
             </li>
             <li>
-              <a>Third Link</a>
+              <a href="https://www.novatec-gmbh.de/beratung/business-process-management-services/" target="_blank">
+                {{ $t('footer.novatec.link3') }}
+              </a>
             </li>
             <li>
-              <a>Fourth Link</a>
+              <a href="https://www.novatec-gmbh.de/beratung/enterprise-task-management/" target="_blank">
+                {{ $t('footer.novatec.link4') }}
+              </a>
             </li>
           </nav>
         </div>
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 class="link-header">Application Architecture</h2>
+          <h2 class="link-header">{{ $t('footer.projects.title') }}</h2>
           <nav class="list-none mb-10">
             <li>
-              <a>First Link</a>
+              <a href="https://inspectit.rocks/" target="_blank">{{ $t('footer.projects.link1') }}</a>
             </li>
             <li>
-              <a>Second Link</a>
-            </li>
-            <li>
-              <a>Third Link</a>
-            </li>
-            <li>
-              <a>Fourth Link</a>
+              <a href="https://openapm.io/" target="_blank">{{ $t('footer.projects.link2') }}</a>
             </li>
           </nav>
         </div>
@@ -185,6 +165,9 @@ a {
   @apply text-gray-500 hover:text-gray-800 dark:hover:text-gray-200 cursor-pointer;
 }
 .link-header {
-  @apply font-medium text-gray-700 dark:text-gray-300 tracking-widest text-sm mb-3;
+  @apply font-medium text-gray-800 dark:text-gray-300 tracking-widest text-sm mb-3;
+}
+li {
+  @apply py-1;
 }
 </style>

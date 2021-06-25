@@ -7,6 +7,7 @@
             class="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-br from-secondary-600 to-primary-600"
           >
             <svg
+              v-if="imgUrl === 'postkorb.svg'"
               class="h-6 w-6 inline-block text-white"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -21,13 +22,29 @@
                 d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"
               ></path>
             </svg>
+
+            <svg
+              v-else
+              class="h-6 w-6 inline-block text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 4h13M3 8h9m-9 4h9m5-4v12m0 0l-4-4m4 4l4-4"
+              ></path>
+            </svg>
           </span>
           <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100">
             {{ title }}
           </h2>
         </div>
 
-        <p class="mt-4 text-lg text-gray-500 dark:text-gray-300">
+        <p class="mt-4 text-base md:text-lg  text-gray-500 dark:text-gray-300">
           {{ description }}
         </p>
 
@@ -36,14 +53,17 @@
             <p class="text-base text-gray-500 dark:text-gray-400">
               {{ comment }}
             </p>
-            <p class="mt-2 text-base font-medium text-gray-700 dark:text-gray-400">
+            <p class="mt-2 text-base font-medium text-gray-700 dark:text-gray-300">
               {{ commentAuthor }}
             </p>
           </blockquote>
         </div>
       </div>
       <div class="my-8 md:my-0 px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
-        <img class="w-full h-full object-contain rounded" :src="imgUrl" />
+        <picture>
+          <source :srcset="altImgUrl" type="image/webp" v-if="altImgUrl !== ''" />
+          <img class="w-full h-full object-contain rounded" :src="imgUrl" :alt="title" />
+        </picture>
       </div>
     </div>
   </div>
@@ -56,6 +76,7 @@ class Props {
   title = prop({ default: '' })
   description = prop({ default: '' })
   imgUrl = prop({ default: '' })
+  altImgUrl = prop({ default: '' })
   comment = prop({ default: '' })
   commentAuthor = prop({ default: '' })
 }

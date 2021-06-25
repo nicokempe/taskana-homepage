@@ -12,9 +12,25 @@
       <ThemeSwitcher class="mr-2" />
       <LanguageSwitcher class="mr-2" />
 
+      <a class="group link mr-4" href="https://taskana.mybluemix.net/taskana/" target="_blank" title="Taskana Demo">
+        <svg
+          class="w-6 h-6 md:h-8 md:w-8 text-gray-700 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-gray-100"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth=""
+            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+          />
+        </svg>
+      </a>
       <a class="group link mr-2" href="https://github.com/taskana/taskana" target="_blank" title="Github repository">
         <svg
-          class="h-8 w-8 text-gray-700 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-gray-100"
+          class="h-6 w-6 md:h-8 md:w-8 text-gray-700 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-gray-100"
           enable-background="new 0 0 512 512"
           height="512px"
           id="Layer_1"
@@ -32,7 +48,6 @@
           </g>
         </svg>
       </a>
-
       <a
         class="group link w-12 md:w-48 ml-2"
         href="https://taskana.atlassian.net/wiki/spaces/TAS/overview"
@@ -42,21 +57,21 @@
         <!-- h-11 px-3 py-2 border-2 border-primary-500 rounded-full -->
         <span class="hidden md:inline">Documentation</span>
         <svg
-          class="h-8 w-8 block md:hidden text-gray-700 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-gray-100"
+          class="documentation h-6 w-6 block md:hidden text-gray-700 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-gray-100"
+          viewBox="0 0 15 15"
           fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
+          width="30"
+          height="30"
         >
           <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="{2}"
-            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-          />
+            d="M4.5 6.995H4v1h.5v-1zm6 1h.5v-1h-.5v1zm-6 1.998H4v1h.5v-1zm6 1.007h.5v-1h-.5v1zm-6-7.003H4v1h.5v-1zM8.5 5H9V4h-.5v1zm2-4.5l.354-.354L10.707 0H10.5v.5zm3 3h.5v-.207l-.146-.147-.354.354zm-9 4.495h6v-1h-6v1zm0 2.998l6 .007v-1l-6-.007v1zm0-5.996L8.5 5V4l-4-.003v1zm8 9.003h-10v1h10v-1zM2 13.5v-12H1v12h1zM2.5 1h8V0h-8v1zM13 3.5v10h1v-10h-1zM10.146.854l3 3 .708-.708-3-3-.708.708zM2.5 14a.5.5 0 01-.5-.5H1A1.5 1.5 0 002.5 15v-1zm10 1a1.5 1.5 0 001.5-1.5h-1a.5.5 0 01-.5.5v1zM2 1.5a.5.5 0 01.5-.5V0A1.5 1.5 0 001 1.5h1z"
+            fill="currentColor"
+          ></path>
         </svg>
+
         <svg
-          class="w-4 h-4 ml-1 hidden md:inline group-hover:w-6 group-hover:h-6 transition-all duration-150 ease-out"
+          class="arrow w-4 h-4 ml-1 hidden md:inline group-hover:w-6 group-hover:h-6 transition-all duration-150 ease-out"
           fill="none"
           stroke="currentColor"
           stroke-linecap="round"

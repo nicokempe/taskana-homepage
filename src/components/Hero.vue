@@ -12,15 +12,15 @@
           <h2 class="text-2xl sm:text-3xl lg:text-4xl leading-none font-bold tracking-tight ">
             {{ $t('hero.subtitle') }}
           </h2>
-          <div class="mt-12 flex flex-row justify-center lg:justify-start">
+          <div class="mt-12 flex flex-row justify-center items-center lg:justify-start flex-wrap px-4">
             <a
-              class="flex justify-center items-center py-3 px-4 my-0 mr-4 ml-0 text-base font-bold leading-6 text-center text-white normal-case bg-primary-500 hover:bg-primary-700 dark:bg-primary-700 dark:hover:bg-primary-800 bg-none rounded-lg transition duration-75 ease-in-out cursor-pointer shadow-xs"
+              class="flex justify-center items-center py-3 px-4 my-2 mx-2 text-base font-bold leading-6 text-center text-white normal-case bg-primary-500 hover:bg-primary-700 dark:bg-primary-700 dark:hover:bg-primary-800 bg-none rounded-lg transition duration-75 ease-in-out cursor-pointer shadow-xs"
               href="#solution"
             >
               {{ $t('hero.actionButtonPrimary') }}
             </a>
             <a
-              class="flex justify-center items-center py-3 px-4 my-0 mr-4 ml-0 text-base font-bold leading-6 text-center text-white normal-case bg-secondary-600 hover:bg-secondary-700 dark:bg-secondary-700 dark:hover:bg-secondary-800 bg-none rounded-lg transition duration-75 ease-in-out cursor-pointer shadow-xs"
+              class="flex justify-center items-center py-3 px-4 my-2 mx-2 text-base font-bold leading-6 text-center text-white normal-case bg-secondary-600 hover:bg-secondary-700 dark:bg-secondary-700 dark:hover:bg-secondary-800 bg-none rounded-lg transition duration-75 ease-in-out cursor-pointer shadow-xs"
               href="#work-with-us"
             >
               {{ $t('hero.actionButtonAlt') }}

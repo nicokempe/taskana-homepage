@@ -25,7 +25,10 @@
             </ul>
           </div>
           <div class="bg-white rounded mt-12 p-4 w-full">
-            <img class="mx-auto" src="taskana-components.png" alt="TASKANA Components" />
+            <picture>
+              <source srcset="taskana-components.webp" type="image/webp" />
+              <img class="mx-auto" src="taskana-components.png" alt="TASKANA Components" />
+            </picture>
           </div>
         </div>
 
@@ -36,12 +39,18 @@
         <div class="technology__stack pt-8 grid grid-cols-1 lg:grid-cols-3 gap-4">
           <div class="h-32 border-l-[6px] border-red-500 rounded bg-white flex flex-row">
             <div class="angular-icon relative w-full h-full">
-              <img class="absolute top-0 h-full w-full object-contain" src="angular.png" />
+              <picture>
+                <source srcset="angular.webp" type="image/webp" />
+                <img class="absolute top-0 h-full w-full object-contain" src="angular.png" />
+              </picture>
             </div>
           </div>
           <div class="h-32 border-l-[6px] border-green-500 rounded p-8 bg-white flex flex-row">
             <div class="angular-icon relative w-full h-full">
-              <img class="absolute top-0 h-full w-full object-contain" src="spring.png" />
+              <picture>
+                <source srcset="spring.webp" type="image/webp" />
+                <img class="absolute top-0 h-full w-full object-contain" src="spring.png" />
+              </picture>
             </div>
           </div>
           <div class="h-32 border-l-[6px] border-gray-700 rounded p-8 bg-white flex flex-row">

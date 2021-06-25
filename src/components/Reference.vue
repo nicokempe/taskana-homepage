@@ -7,16 +7,25 @@
     <div class="px-6">
       <div class="pt-16 grid grid-cols-1 md:grid-cols-3 gap-4 place-items-center">
         <a class="card" href="https://www.soka-bau.de/" target="_blank">
-          <img src="sokabau.png" alt="" />
+          <picture>
+            <source srcset="sokabau.webp" type="image/webp" />
+            <img src="sokabau.png" alt="www.soka-bau.de" />
+          </picture>
         </a>
         <a class="card p-2 md:p-8" href="https://www.generali.de/" target="_blank">
           <div class="angular-icon relative w-full h-full">
-            <img class="absolute top-0 h-full w-full object-contain" src="generali.png" />
+            <picture>
+              <source srcset="generali.webp" type="image/webp" />
+              <img class="absolute top-0 h-full w-full object-contain" src="generali.png" alt="www.generali.de" />
+            </picture>
           </div>
         </a>
 
         <a class="card" href="https://www.debeka.de/" target="_blank">
-          <img src="debeka.png" alt="" />
+          <picture>
+            <source srcset="debeka.webp" type="image/webp" />
+            <img src="debeka.png" alt="www.debeka.de" />
+          </picture>
         </a>
       </div>
     </div>

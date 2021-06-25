@@ -69,7 +69,9 @@
         <p class="text-gray-600 dark:text-gray-400 font-medium text-sm text-center sm:text-left">
           © 2021 Novatec GmbH
         </p>
-
+        <p class="ml-4 my-2 md:my-0 text-gray-600 dark:text-gray-400 font-medium text-sm text-center sm:text-left">
+          <a href="https://www.novatec-gmbh.de/impressum/">Impressum</a>
+        </p>
         <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start space-x-3">
           <a class="footer__facebook" href="https://www.facebook.com/novatec.holding">
             <svg

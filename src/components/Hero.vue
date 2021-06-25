@@ -30,12 +30,15 @@
         <div class="hero__frame hidden lg:block w-full lg:w-1/2 h-full lg:h-5/6 mt-20 md:mt-0 relative">
           <a href="https://taskana.mybluemix.net/taskana" target="_blank">
             <div class="md:px-0 h-full md:w-full rounded-lg">
-              <img
-                class="absolute md:h-full object-cover max-w-full md:max-w-max rounded-lg shadow-2xl"
-                src="preview.png"
-                alt="TASKANA preview"
-                title="TASKANA preview"
-              />
+              <picture>
+                <source srcset="preview.webp" type="image/webp" />
+                <img
+                  class="absolute md:h-full object-cover max-w-full md:max-w-max rounded-lg shadow-2xl"
+                  src="preview.png"
+                  alt="TASKANA preview"
+                  title="TASKANA preview"
+                />
+              </picture>
             </div>
           </a>
         </div>

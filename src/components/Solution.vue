@@ -6,8 +6,11 @@
     </p>
 
     <div class="relative pt-4 lg:pt-16 overflow-hidden">
-      <div class="solution__desc text-gray-500 dark:text-gray-300 px-4 lg:px-8 my-8 md:my-0 text-base md:text-lg ">
-        {{ $t('solution.description') }}
+      <div
+        class="solution__desc text-gray-500 dark:text-gray-300 px-4 lg:px-8 my-8 md:my-0 text-base md:text-lg space-y-4"
+      >
+        <p>{{ $t('solution.description') }}</p>
+        <p>{{ $t('solution.description-2') }}</p>
       </div>
       <Feature :title="$t('solution.title1')" :description="$t('solution.description1')" imgUrl="postkorb.svg" />
       <FeatureAlt

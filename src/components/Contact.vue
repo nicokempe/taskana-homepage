@@ -26,7 +26,8 @@
           </div>
           <div class="info text-center sm:text-left p-4 my-auto">
             <p class="name mb-1 text-lg font-bold uppercase tracking-tight">Holger Hagen</p>
-            <p class="position text-gray-600">Head of Practice Area Business Process Management</p>
+            <p class="text-gray-600">Head of Practice Area</p>
+            <p class="text-gray-600">Business Process Management</p>
             <div class="h-1 mt-4 mb-2 mx-auto sm:mx-0 bg-gradient-to-r from-primary-600 to-secondary-600 w-2/3"></div>
             <div class="text-gray-700">
               <svg

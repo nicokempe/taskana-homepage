@@ -7,28 +7,28 @@
     <div class="px-6">
       <div class="pt-16 grid grid-cols-1 md:grid-cols-3 gap-4 place-items-start">
         <div class="card relative w-full h-full">
-          <a class="py-2 md:py-8" href="https://www.soka-bau.de/" target="_blank">
+          <a class="py-4 md:py-8" href="https://www.soka-bau.de/" target="_blank">
             <picture>
               <source srcset="sokabau.webp" type="image/webp" />
-              <img class="absolute w-full h-[80%] object-scale-down" src="sokabau.png" alt="www.soka-bau.de" />
+              <img class="w-full h-full object-scale-down" src="sokabau.png" alt="www.soka-bau.de" />
             </picture>
           </a>
         </div>
 
         <div class="relative w-full h-full">
-          <a class="card py-2 md:py-8" href="https://www.generali.de/" target="_blank">
+          <a class="card py-4 md:py-8" href="https://www.generali.de/" target="_blank">
             <picture>
               <source srcset="generali.webp" type="image/webp" />
-              <img class="absolute w-full h-[80%] object-scale-down" src="generali.png" alt="www.generali.de" />
+              <img class="w-full h-full object-scale-down aspect-w-16" src="generali.png" alt="www.generali.de" />
             </picture>
           </a>
         </div>
 
         <div class="relative w-full h-full">
-          <a class="card py-2 md:py-8" href="https://www.debeka.de/" target="_blank">
+          <a class="card p-4 md:py-16" href="https://www.debeka.de/" target="_blank">
             <picture>
               <source srcset="debeka.webp" type="image/webp" />
-              <img class="absolute w-full h-[80%] object-scale-down" src="debeka.png" alt="www.debeka.de" />
+              <img class="w-full h-full object-scale-down" src="debeka.png" alt="www.debeka.de" />
             </picture>
           </a>
         </div>
@@ -49,6 +49,6 @@ export default class Reference extends Vue {}
 
 <style lang="scss" scoped>
 .card {
-  @apply relative h-36 md:h-64 w-full grid bg-primary-100 hover:bg-secondary-100 hover:border-secondary-500 rounded border-l-[6px] border-primary-500;
+  @apply relative h-36 md:h-64 w-full flex  bg-primary-100 hover:bg-secondary-100 hover:border-secondary-500 rounded border-l-[6px] border-primary-500;
 }
 </style>

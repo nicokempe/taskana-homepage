@@ -28,6 +28,11 @@
             <li>
               <a href="https://github.com/Taskana/taskana" target="_blank">{{ $t('footer.taskana.link3') }}</a>
             </li>
+            <li>
+              <a href="https://github.com/Taskana/taskana/discussions" target="_blank">
+                {{ $t('footer.taskana.link4') }}
+              </a>
+            </li>
           </nav>
         </div>
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">

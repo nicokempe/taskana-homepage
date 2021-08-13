@@ -31,31 +31,32 @@
             </picture>
           </div>
         </div>
-
-        <div class="technology__description pt-12 pb-4 text-base md:text-lg text-justify">
-          {{ $t('technology.description') }}
-        </div>
-
-        <div class="technology__stack pt-8 grid grid-cols-1 lg:grid-cols-3 gap-4">
-          <div class="h-32 border-l-[6px] border-red-500 rounded bg-white flex flex-row">
-            <div class="angular-icon relative w-full h-full">
-              <picture>
-                <source srcset="angular.webp" type="image/webp" />
-                <img class="absolute top-0 h-full w-full object-contain" src="angular.png" />
-              </picture>
-            </div>
+        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+          <div class="technology__description pt-12 pb-4 text-base md:text-lg text-justify">
+            {{ $t('technology.description') }}
           </div>
-          <div class="h-32 border-l-[6px] border-green-500 rounded p-8 bg-white flex flex-row">
-            <div class="angular-icon relative w-full h-full">
-              <picture>
-                <source srcset="spring.webp" type="image/webp" />
-                <img class="absolute top-0 h-full w-full object-contain" src="spring.png" />
-              </picture>
+
+          <div class="technology__stack pt-8 grid grid-cols-1 lg:grid-cols-3 gap-4">
+            <div class="h-32 border-l-[6px] border-red-500 rounded bg-white flex flex-row">
+              <div class="angular-icon relative w-full h-full">
+                <picture>
+                  <source srcset="angular.webp" type="image/webp" />
+                  <img class="absolute top-0 h-full w-full object-contain" src="angular.png" />
+                </picture>
+              </div>
             </div>
-          </div>
-          <div class="h-32 border-l-[6px] border-gray-700 rounded p-8 bg-white flex flex-row">
-            <div class="angular-icon relative w-full h-full">
-              <img class="absolute top-0 h-full w-full object-contain" src="camunda.svg" />
+            <div class="h-32 border-l-[6px] border-green-500 rounded p-8 bg-white flex flex-row">
+              <div class="angular-icon relative w-full h-full">
+                <picture>
+                  <source srcset="spring.webp" type="image/webp" />
+                  <img class="absolute top-0 h-full w-full object-contain" src="spring.png" />
+                </picture>
+              </div>
+            </div>
+            <div class="h-32 border-l-[6px] border-gray-700 rounded p-8 bg-white flex flex-row">
+              <div class="angular-icon relative w-full h-full">
+                <img class="absolute top-0 h-full w-full object-contain" src="camunda.svg" />
+              </div>
             </div>
           </div>
         </div>

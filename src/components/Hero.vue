@@ -1,6 +1,6 @@
 <template>
   <div id="hero" class="relative z-10 max-w-screen-lg xl:max-w-screen-xl mx-auto pb-16">
-    <div class="h-[85vh]">
+    <div class="h-[85vh]" data-aos="fade-up">
       <div
         class="h-5/6 pt-10 text-gray-800 dark:text-gray-200 flex flex-col lg:flex-row justify-center items-center space-between"
       >

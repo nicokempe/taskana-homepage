@@ -12,24 +12,36 @@
         <p>{{ $t('solution.description') }}</p>
         <p>{{ $t('solution.description-2') }}</p>
       </div>
-      <Feature :title="$t('solution.title1')" :description="$t('solution.description1')" imgUrl="postkorb.svg" />
+      <Feature
+        :title="$t('solution.title1')"
+        :description="$t('solution.description1')"
+        imgUrl="postkorb.svg"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+      />
       <FeatureAlt
         :title="$t('solution.title2')"
         :description="$t('solution.description2')"
         imgUrl="routing.png"
         altImgUrl="routing.webp"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
       />
       <Feature
         :title="$t('solution.title3')"
         :description="$t('solution.description3')"
         imgUrl="prio.png"
         altImgUrl="prio.webp"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
       />
       <FeatureAlt
         :title="$t('solution.title4')"
         :description="$t('solution.description4')"
         imgUrl="monitor.png"
         altImgUrl="monitor.webp"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
       />
     </div>
     <div class="solution__background-transition absolute h-16 w-full top-0"></div>

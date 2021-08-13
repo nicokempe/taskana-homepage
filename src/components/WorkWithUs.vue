@@ -5,9 +5,13 @@
       <Link path="#work-with-us" />
     </p>
 
-    <div class="px-6 pt-12 text-gray-600 dark:text-gray-300">
+    <div
+      class="px-6 pt-12 text-gray-600 dark:text-gray-300"
+      data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom"
+    >
       {{ $t('workwithus.description') }}
-      <div class="pt-12 grid grid-cols-1 md:grid-cols-3 gap-4 text-gray-700 ">
+      <div class="pt-12 grid grid-cols-1 md:grid-cols-3 gap-4 text-gray-700">
         <div class="feature-card">
           {{ $t('workwithus.feature1') }}
         </div>

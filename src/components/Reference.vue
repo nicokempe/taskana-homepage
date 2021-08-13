@@ -5,7 +5,11 @@
       <Link path="#reference" />
     </p>
     <div class="px-6">
-      <div class="pt-16 grid grid-cols-1 md:grid-cols-3 gap-4 place-items-start">
+      <div
+        class="pt-16 grid grid-cols-1 md:grid-cols-3 gap-4 place-items-start"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+      >
         <div class="card relative w-full h-full">
           <a class="py-4 md:py-8" href="https://www.soka-bau.de/" target="_blank">
             <picture>

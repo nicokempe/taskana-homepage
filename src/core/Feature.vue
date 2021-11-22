@@ -1,14 +1,14 @@
 <template>
   <div class="relative">
     <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-      <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
-        <div class="title flex flex-row items-center space-x-4">
+      <div class="max-w-xl px-4 mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
+        <div class="flex flex-row items-center space-x-4 title">
           <span
-            class="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-br from-secondary-600 to-primary-600"
+            class="flex items-center justify-center w-12 h-12 rounded-md bg-gradient-to-br from-secondary-600 to-primary-600"
           >
             <svg
               v-if="imgUrl === 'postkorb.svg'"
-              class="h-6 w-6 inline-block text-white"
+              class="inline-block w-6 h-6 text-white"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -25,7 +25,7 @@
 
             <svg
               v-else
-              class="h-6 w-6 inline-block text-white"
+              class="inline-block w-6 h-6 text-white"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -44,11 +44,11 @@
           </h2>
         </div>
 
-        <p class="mt-4 text-base md:text-lg  text-gray-500 dark:text-gray-300">
+        <p class="mt-4 text-base text-gray-500 md:text-lg dark:text-gray-300">
           {{ description }}
         </p>
 
-        <div class="mt-6 pt-4 border-t border-gray-200 dark:border-gray-700" :class="{ hidden: comment.length === 0 }">
+        <div class="pt-4 mt-6 border-t border-gray-200 dark:border-gray-700" :class="{ hidden: comment.length === 0 }">
           <blockquote>
             <p class="text-base text-gray-500 dark:text-gray-400">
               {{ comment }}
@@ -59,10 +59,10 @@
           </blockquote>
         </div>
       </div>
-      <div class="my-8 md:my-0 px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
+      <div class="max-w-xl px-4 mx-auto my-8 md:my-0 sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
         <picture>
           <source :srcset="altImgUrl" type="image/webp" v-if="altImgUrl !== ''" />
-          <img class="w-full h-full object-contain rounded" :src="imgUrl" :alt="title" />
+          <img class="object-contain w-full h-full rounded" :src="imgUrl" :alt="title" />
         </picture>
       </div>
     </div>

@@ -1,38 +1,38 @@
 <template>
   <div
     id="contact"
-    class="content-wrapper py-16 bg-gradient-to-br from-secondary-800 to-primary-700 dark:from-secondary-900 dark:to-primary-900"
+    class="py-16 content-wrapper bg-gradient-to-br from-secondary-800 to-primary-700 dark:from-secondary-900 dark:to-primary-900"
   >
-    <div class="content z-10">
+    <div class="z-10 content">
       <p class="content-title--alt">
         {{ $t('contact.headline') }}
         <Link path="#contact" />
       </p>
       <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-        <div class="mt-8 px-6 text-white text-base md:text-lg">
+        <div class="px-6 mt-8 text-base text-white md:text-lg">
           {{ $t('contact.description1') }}
           <a class="hover:text-secondary-600" href="mailto:taskana@novatec-gmbh.de">taskana@novatec-gmbh.de</a>
           {{ $t('contact.description2') }}
         </div>
-        <div class="mt-8 py-4 flex justify-center">
+        <div class="flex justify-center py-4 mt-8">
           <div
             class="contact-info w-[90%] sm:min-w-[400px] md:w-1/2 h-96 sm:h-64 bg-white rounded-md flex flex-col sm:flex-row"
           >
-            <div class="avatar relative pt-2 sm:pt-0 h-48 w-48 sm:h-auto sm:w-64 mx-auto sm:mx-0">
+            <div class="relative w-48 h-48 pt-2 mx-auto avatar sm:pt-0 sm:h-auto sm:w-64 sm:mx-0">
               <img
-                class="absolute w-full h-full rounded-full sm:rounded-none sm:rounded-l-md object-cover"
+                class="absolute object-cover w-full h-full rounded-full sm:rounded-none sm:rounded-l-md"
                 src="holger.jpeg"
                 alt=""
               />
             </div>
-            <div class="info text-center sm:text-left p-4 my-auto">
-              <p class="name mb-1 text-lg font-bold uppercase tracking-tight">Holger Hagen</p>
+            <div class="p-4 my-auto text-center info sm:text-left">
+              <p class="mb-1 text-lg font-bold tracking-tight uppercase name">Holger Hagen</p>
               <p class="text-gray-600">Head of Practice Area</p>
               <p class="text-gray-600">Business Process Management</p>
-              <div class="h-1 mt-4 mb-2 mx-auto sm:mx-0 bg-gradient-to-r from-primary-600 to-secondary-600 w-2/3"></div>
+              <div class="w-2/3 h-1 mx-auto mt-4 mb-2 sm:mx-0 bg-gradient-to-r from-primary-600 to-secondary-600"></div>
               <div class="text-gray-700">
                 <svg
-                  class="w-4 h-4 inline mr-0 md:mr-2"
+                  class="inline w-4 h-4 mr-0 md:mr-2"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -45,13 +45,13 @@
                     d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
                   ></path>
                 </svg>
-                <a class="hover:text-secondary-600 select-all" href="mailto:holger.hagen@novatec-gmbh.de">
+                <a class="select-all hover:text-secondary-600" href="mailto:holger.hagen@novatec-gmbh.de">
                   holger.hagen@novatec-gmbh.de
                 </a>
               </div>
               <div class="text-gray-700">
                 <svg
-                  class="w-4 h-4 inline mr-2"
+                  class="inline w-4 h-4 mr-2"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -64,8 +64,8 @@
                     d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                   ></path>
                 </svg>
-                <a class="select-all hidden sm:inline-block">+49 711 22040-827</a>
-                <a href="tel:+4971122040-827" class="select-all inline-block sm:hidden">
+                <a class="hidden select-all sm:inline-block">+49 711 22040-827</a>
+                <a href="tel:+4971122040-827" class="inline-block select-all sm:hidden">
                   +49 711 22040-827
                 </a>
               </div>

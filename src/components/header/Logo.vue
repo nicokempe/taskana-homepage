@@ -1,7 +1,7 @@
 <template>
   <a href="#hero">
     <svg
-      class="h-10 inline"
+      class="inline h-10"
       viewBox="0 0 3625 3139"
       shape-rendering="geometricPrecision"
       text-rendering="geometricPrecision"
@@ -69,7 +69,7 @@
         />
       </g>
     </svg>
-    <span class="tracking-tight font-bold text-black dark:text-white">TASKANA</span>
+    <span class="font-bold tracking-tight text-black dark:text-white">TASKANA</span>
   </a>
 </template>
 

@@ -1,39 +1,39 @@
 <template>
-  <div id="hero" class="relative z-10 max-w-screen-lg xl:max-w-screen-xl mx-auto pb-16">
+  <div id="hero" class="relative z-10 max-w-screen-lg pb-16 mx-auto xl:max-w-screen-xl">
     <div class="h-[85vh]" data-aos="fade-up">
       <div
-        class="h-5/6 pt-10 text-gray-800 dark:text-gray-200 flex flex-col lg:flex-row justify-center items-center space-between"
+        class="flex flex-col items-center justify-center pt-10 text-gray-800 h-5/6 dark:text-gray-200 lg:flex-row space-between"
       >
-        <div class="hero__title w-full md:w-1/2 md:mt-0 text-center lg:text-left text-gray-900 dark:text-gray-100">
-          <h1 class="content-title mb-4">
-            <img class="h-16 w-16 object-scale-down inline" src="logo.svg" />
+        <div class="w-full text-center text-gray-900 hero__title md:w-1/2 md:mt-0 lg:text-left dark:text-gray-100">
+          <h1 class="mb-4 content-title">
+            <img class="inline object-scale-down w-16 h-16" src="logo.svg" />
             {{ $t('hero.title') }}
           </h1>
-          <h2 class="text-2xl sm:text-3xl lg:text-4xl leading-none font-bold tracking-tight ">
+          <h2 class="text-2xl font-bold leading-none tracking-tight sm:text-3xl lg:text-4xl ">
             {{ $t('hero.subtitle') }}
           </h2>
-          <div class="mt-12 flex flex-row justify-center items-center lg:justify-start flex-wrap px-4">
+          <div class="flex flex-row flex-wrap items-center justify-center px-4 mt-12 lg:justify-start">
             <a
-              class="flex justify-center items-center py-3 px-4 my-2 mx-2 text-base font-bold leading-6 text-center text-white normal-case bg-primary-500 hover:bg-primary-700 dark:bg-primary-700 dark:hover:bg-primary-800 bg-none rounded-lg transition duration-75 ease-in-out cursor-pointer shadow-xs"
+              class="flex items-center justify-center px-4 py-3 mx-2 my-2 text-base font-bold leading-6 text-center text-white normal-case transition duration-75 ease-in-out rounded-lg shadow-xs cursor-pointer bg-primary-500 hover:bg-primary-700 dark:bg-primary-700 dark:hover:bg-primary-800 bg-none"
               href="#solution"
             >
               {{ $t('hero.actionButtonPrimary') }}
             </a>
             <a
-              class="flex justify-center items-center py-3 px-4 my-2 mx-2 text-base font-bold leading-6 text-center text-white normal-case bg-secondary-600 hover:bg-secondary-700 dark:bg-secondary-700 dark:hover:bg-secondary-800 bg-none rounded-lg transition duration-75 ease-in-out cursor-pointer shadow-xs"
+              class="flex items-center justify-center px-4 py-3 mx-2 my-2 text-base font-bold leading-6 text-center text-white normal-case transition duration-75 ease-in-out rounded-lg shadow-xs cursor-pointer bg-secondary-600 hover:bg-secondary-700 dark:bg-secondary-700 dark:hover:bg-secondary-800 bg-none"
               href="#work-with-us"
             >
               {{ $t('hero.actionButtonAlt') }}
             </a>
           </div>
         </div>
-        <div class="hero__frame hidden lg:block w-full lg:w-1/2 h-full lg:h-5/6 mt-20 md:mt-0 relative">
+        <div class="relative hidden w-full h-full mt-20 hero__frame lg:block lg:w-1/2 lg:h-5/6 md:mt-0">
           <a href="https://taskana.mybluemix.net/taskana" target="_blank">
-            <div class="md:px-0 h-full md:w-full rounded-lg">
+            <div class="h-full rounded-lg md:px-0 md:w-full">
               <picture>
                 <source srcset="preview.webp" type="image/webp" />
                 <img
-                  class="absolute md:h-full object-cover max-w-full md:max-w-max rounded-lg shadow-2xl"
+                  class="absolute object-cover max-w-full rounded-lg shadow-2xl md:h-full md:max-w-max"
                   src="preview.png"
                   alt="TASKANA preview"
                   title="TASKANA preview"
@@ -43,10 +43,10 @@
           </a>
         </div>
       </div>
-      <div class="down-arrow mt-24 md:mt-16 flex items-center justify-center">
+      <div class="flex items-center justify-center mt-24 down-arrow md:mt-16">
         <a class="focus:outline-none group" href="#solution">
           <svg
-            class="w-12 md:w-24 h-12 md:h-24 group-hover:cursor-pointer animate-pulse text-gray-400 dark:text-gray-600"
+            class="w-12 h-12 text-gray-400 md:w-24 md:h-24 group-hover:cursor-pointer animate-pulse dark:text-gray-600"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"

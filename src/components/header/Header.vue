@@ -2,25 +2,25 @@
   <header
     class="text-gray-600 dark:text-gray-300 max-h-[60px] overflow-hidden z-10 max-w-screen-lg xl:max-w-screen-xl mx-auto"
   >
-    <div class="container mx-auto flex flex-wrap p-5 flex-row items-center justify-center md:justify-start">
-      <a class="hidden md:flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+    <div class="container flex flex-row flex-wrap items-center justify-center p-5 mx-auto md:justify-start">
+      <a class="items-center hidden mb-4 font-medium text-gray-900 md:flex title-font md:mb-0">
         <Logo />
       </a>
 
-      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center"></nav>
+      <nav class="flex flex-wrap items-center justify-center text-base md:ml-auto"></nav>
 
       <ThemeSwitcher class="mr-2" />
       <LanguageSwitcher class="mr-2" />
 
       <a
-        class="group link mr-4 flex items-center"
+        class="flex items-center mr-4 group link"
         href="https://taskana.mybluemix.net/taskana/"
         target="_blank"
         title="Taskana Demo"
       >
         <span class="hidden md:inline md:mr-1">Demo</span>
         <svg
-          class="inline w-6 h-6 md:h-8 md:w-8 text-gray-700 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-gray-100"
+          class="inline w-6 h-6 text-gray-700 md:h-8 md:w-8 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-gray-100"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -35,7 +35,7 @@
         </svg>
       </a>
       <a
-        class="group link mr-2 flex items-center"
+        class="flex items-center mr-2 group link"
         href="https://github.com/taskana/taskana"
         target="_blank"
         title="Github repository"
@@ -43,7 +43,7 @@
         <span class="hidden md:inline md:mr-1">GitHub</span>
 
         <svg
-          class="h-6 w-6 md:h-8 md:w-8 text-gray-700 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-gray-100"
+          class="w-6 h-6 text-gray-700 md:h-8 md:w-8 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-gray-100"
           enable-background="new 0 0 512 512"
           height="512px"
           id="Layer_1"
@@ -62,7 +62,7 @@
         </svg>
       </a>
       <a
-        class="group link w-12 md:w-48 ml-2"
+        class="w-12 ml-2 group link md:w-48"
         href="https://taskana.atlassian.net/wiki/spaces/TAS/overview"
         target="_blank"
         title="Documentation"
@@ -70,7 +70,7 @@
         <!-- h-11 px-3 py-2 border-2 border-primary-500 rounded-full -->
         <span class="hidden md:inline">Documentation</span>
         <svg
-          class="documentation h-6 w-6 block md:hidden text-gray-700 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-gray-100"
+          class="block w-6 h-6 text-gray-700 documentation md:hidden group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-gray-100"
           viewBox="0 0 15 15"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +84,7 @@
         </svg>
 
         <svg
-          class="arrow w-4 h-4 ml-1 hidden md:inline group-hover:w-6 group-hover:h-6 transition-all duration-150 ease-out"
+          class="hidden w-4 h-4 ml-1 transition-all duration-150 ease-out arrow md:inline group-hover:w-6 group-hover:h-6"
           fill="none"
           stroke="currentColor"
           stroke-linecap="round"

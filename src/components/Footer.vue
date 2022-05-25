@@ -1,11 +1,12 @@
 <template>
-  <footer class="text-gray-600 body-font ">
+  <Privacy v-if="isPrivacyShown" @close="closePrivacy()" />
+  <footer class="body-font text-gray-600">
     <div
-      class="content-wrapper px-5 py-12 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col"
+      class="content-wrapper md:items-center lg:items-start md:flex-row md:flex-nowrap flex flex-col flex-wrap px-5 py-12 mx-auto"
     >
-      <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+      <div class="md:mx-0 md:text-left flex-shrink-0 w-64 mx-auto text-center">
         <a
-          class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900 cursor-pointer"
+          class="title-font md:justify-start flex items-center justify-center font-medium text-gray-900 cursor-pointer"
           href="https://novatec-gmbh.de"
           target="_blank"
         >
@@ -13,71 +14,74 @@
         </a>
         <p class="mt-2 text-sm text-gray-500">Created with ❤️</p>
       </div>
-      <div class="flex-grow flex flex-wrap justify-end md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+      <div class="md:pl-20 md:mt-0 md:text-left flex flex-wrap justify-end flex-grow mt-10 -mb-10 text-center">
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
           <h2 class="link-header">TASKANA</h2>
-          <nav class="list-none mb-10">
+          <nav class="mb-10 list-none">
             <li>
-              <a href="https://taskana.mybluemix.net/taskana/" target="_blank">{{ $t('footer.taskana.link1') }}</a>
+              <a href="https://taskana.mybluemix.net/taskana/" target="_blank">{{ $t("footer.taskana.link1") }}</a>
             </li>
             <li>
               <a href="https://taskana.atlassian.net/wiki/spaces/TAS/overview" target="_blank">
-                {{ $t('footer.taskana.link2') }}
+                {{ $t("footer.taskana.link2") }}
               </a>
             </li>
             <li>
-              <a href="https://github.com/Taskana/taskana" target="_blank">{{ $t('footer.taskana.link3') }}</a>
+              <a href="https://github.com/Taskana/taskana" target="_blank">{{ $t("footer.taskana.link3") }}</a>
             </li>
             <li>
               <a href="https://github.com/Taskana/taskana/discussions" target="_blank">
-                {{ $t('footer.taskana.link4') }}
+                {{ $t("footer.taskana.link4") }}
               </a>
             </li>
           </nav>
         </div>
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
           <h2 class="link-header">NOVATEC</h2>
-          <nav class="list-none mb-10">
+          <nav class="mb-10 list-none">
             <li>
-              <a href="https://www.novatec-gmbh.de/unternehmen/" target="_blank">{{ $t('footer.novatec.link1') }}</a>
+              <a href="https://www.novatec-gmbh.de/unternehmen/" target="_blank">{{ $t("footer.novatec.link1") }}</a>
             </li>
             <li>
-              <a href="https://www.novatec-gmbh.de/beratung/" target="_blank">{{ $t('footer.novatec.link2') }}</a>
+              <a href="https://www.novatec-gmbh.de/beratung/" target="_blank">{{ $t("footer.novatec.link2") }}</a>
             </li>
             <li>
               <a href="https://www.novatec-gmbh.de/beratung/business-process-management-services/" target="_blank">
-                {{ $t('footer.novatec.link3') }}
+                {{ $t("footer.novatec.link3") }}
               </a>
             </li>
             <li>
               <a href="https://www.novatec-gmbh.de/beratung/enterprise-task-management/" target="_blank">
-                {{ $t('footer.novatec.link4') }}
+                {{ $t("footer.novatec.link4") }}
               </a>
             </li>
           </nav>
         </div>
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 class="link-header">{{ $t('footer.projects.title') }}</h2>
-          <nav class="list-none mb-10">
+          <h2 class="link-header">{{ $t("footer.projects.title") }}</h2>
+          <nav class="mb-10 list-none">
             <li>
-              <a href="https://inspectit.rocks/" target="_blank">{{ $t('footer.projects.link1') }}</a>
+              <a href="https://inspectit.rocks/" target="_blank">{{ $t("footer.projects.link1") }}</a>
             </li>
             <li>
-              <a href="https://openapm.io/" target="_blank">{{ $t('footer.projects.link2') }}</a>
+              <a href="https://openapm.io/" target="_blank">{{ $t("footer.projects.link2") }}</a>
             </li>
           </nav>
         </div>
       </div>
     </div>
     <div class="footer">
-      <div class="content-wrapper mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-        <p class="text-gray-600 dark:text-gray-400 font-medium text-sm text-center sm:text-left">
+      <div class="content-wrapper sm:flex-row flex flex-col flex-wrap px-5 py-4 mx-auto">
+        <p class="dark:text-gray-400 sm:text-left text-sm font-medium text-center text-gray-600">
           © 2021 Novatec GmbH
         </p>
-        <p class="ml-4 my-2 md:my-0 text-gray-600 dark:text-gray-400 font-medium text-sm text-center sm:text-left">
-          <a href="https://www.novatec-gmbh.de/impressum/">Impressum</a>
+        <p class="sm:my-0 dark:text-gray-400 sm:text-left mt-2 ml-4 text-sm font-medium text-center text-gray-600">
+          <a href="https://www.novatec-gmbh.de/impressum/">{{ $t("footer.imprint") }}</a>
         </p>
-        <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start space-x-3">
+        <p class="sm:my-0 dark:text-gray-400 sm:text-left my-2 ml-4 text-sm font-medium text-center text-gray-600">
+          <a href="https://www.novatec-gmbh.de/datenschutz/">{{ $t("footer.privacy") }}</a>
+        </p>
+        <span class="sm:ml-auto sm:mt-0 sm:justify-start inline-flex justify-center mt-2 space-x-3">
           <a class="footer__facebook" href="https://www.facebook.com/novatec.holding">
             <svg
               fill="currentColor"
@@ -92,7 +96,7 @@
           </a>
 
           <a
-            class="footer__twitter text-gray-500 hover:text-gray-800 dark:hover:text-gray-200 cursor-pointer"
+            class="footer__twitter hover:text-gray-800 dark:hover:text-gray-200 text-gray-500 cursor-pointer"
             href="https://twitter.com/novatecgmbh"
           >
             <svg
@@ -110,7 +114,7 @@
           </a>
 
           <a
-            class="footer__xing text-gray-500 hover:text-gray-800 dark:hover:text-gray-200 cursor-pointer"
+            class="footer__xing hover:text-gray-800 dark:hover:text-gray-200 text-gray-500 cursor-pointer"
             href="https://www.xing.com/pages/novatecgmbh"
           >
             <svg
@@ -159,12 +163,22 @@
 </template>
 
 <script lang="ts">
-import { Options, Vue } from 'vue-class-component'
-import Logo from '@/core/Logo.vue'
+import { Options, Vue } from "vue-class-component"
+import Logo from "@/core/Logo.vue"
+import Privacy from "@/components/Privacy.vue"
 @Options({
-  components: { Logo }
+  components: { Logo, Privacy }
 })
-export default class Footer extends Vue {}
+export default class Footer extends Vue {
+  isPrivacyShown = false
+
+  displayPrivacy() {
+    this.isPrivacyShown = true
+  }
+  closePrivacy() {
+    this.isPrivacyShown = false
+  }
+}
 </script>
 
 <style lang="scss" scoped>

@@ -65,8 +65,8 @@
                   ></path>
                 </svg>
                 <a class="hidden select-all sm:inline-block">+49 711 22040-827</a>
-                <a href="tel:+4971122040-827" class="inline-block select-all sm:hidden">
-                  +49 711 22040-827
+                <a href="tel:+4915120902198" class="inline-block select-all sm:hidden">
+                  +49 151 2090 2198
                 </a>
               </div>
             </div>

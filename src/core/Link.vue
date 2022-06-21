@@ -22,7 +22,7 @@
 
 <script lang="ts">
 import { Vue, prop } from 'vue-class-component'
-import { copyUrl } from '@/utils/copyUrl.ts'
+import { copyUrl } from '@/utils/copyUrl'
 
 class Props {
   path = prop({ default: '' })

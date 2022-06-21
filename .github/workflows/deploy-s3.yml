@@ -11,6 +11,7 @@ concurrency:
 
 env:
   NODE_VERSION: 16.15.1
+  CACHE_WEB_NAME: web
 
 jobs:
   deploy:
@@ -27,19 +28,16 @@ jobs:
         id: web-cache
         uses: actions/cache@v3
         with:
-          path: web/node_modules
+          path: node_modules
           key: ${{ runner.OS }}-${{ env.CACHE_WEB_NAME }}-${{ hashFiles('**/package-lock.json') }}
       - name: Install Dependencies
-            if: steps.web-cache.outputs.cache-hit != 'true'
-            working-directory: web
-            run: npm ci
+        if: steps.web-cache.outputs.cache-hit != 'true'
+        run: npm ci
       - name: Compile & build
-        working-directory: web
         run: npm run build
       - name: Deploy to S3
-          env:
-            AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-            AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-            AWS_DEFAULT_REGION: eu-central-1
-          run: aws s3 cp --recursive dist s3://taskana.pro
-      
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: eu-central-1
+        run: aws s3 cp --recursive dist s3://taskana.pro

@@ -22,7 +22,7 @@
               <img
                 class="absolute object-cover w-full h-full rounded-full sm:rounded-none sm:rounded-l-md"
                 src="mustapha.jpg"
-                alt="Mustapha Zorgatti - Taskana expert"
+                alt="Mustapha Zorgati - Taskana expert"
               />
             </div>
             <div class="p-4 my-auto text-center info sm:text-left">
@@ -46,7 +46,7 @@
                   ></path>
                 </svg>
                 <a class="select-all hover:text-secondary-600" href="mailto:mustapha.zorgati@novatec-gmbh.de">
-                   mustapha.zorgati@novatec-gmbh.de
+                  mustapha.zorgati@novatec-gmbh.de
                 </a>
               </div>
               <div class="text-gray-700">
@@ -65,9 +65,7 @@
                   ></path>
                 </svg>
                 <a class="hidden select-all sm:inline-block">+49 175 9205 059</a>
-                <a href="tel:+491759205059" class="inline-block select-all sm:hidden">
-                  +49 175 9205 059
-                </a>
+                <a href="tel:+491759205059" class="inline-block select-all sm:hidden">+49 175 9205 059</a>
               </div>
             </div>
           </div>
@@ -103,7 +101,7 @@
                   ></path>
                 </svg>
                 <a class="select-all hover:text-secondary-600" href="mailto:joerg.wissmeier@novatec-gmbh.de">
-                   joerg.wissmeier@novatec-gmbh.de
+                  joerg.wissmeier@novatec-gmbh.de
                 </a>
               </div>
               <div class="text-gray-700">
@@ -122,9 +120,7 @@
                   ></path>
                 </svg>
                 <a class="hidden select-all sm:inline-block">+49 711 22040 827</a>
-                <a href="tel:+4971122040827" class="inline-block select-all sm:hidden">
-                  +49 711 22040 827
-                </a>
+                <a href="tel:+4971122040827" class="inline-block select-all sm:hidden">+49 711 22040 827</a>
               </div>
             </div>
           </div>

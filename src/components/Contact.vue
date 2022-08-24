@@ -26,7 +26,7 @@
               />
             </div>
             <div class="p-4 my-auto text-center info sm:text-left">
-              <p class="mb-1 text-lg font-bold tracking-tight uppercase name">Mustapha Zorgatti</p>
+              <p class="mb-1 text-lg font-bold tracking-tight uppercase name">Mustapha Zorgati</p>
               <p class="text-gray-600">Consultant</p>
               <p class="text-gray-600">Business Process Management</p>
               <div class="w-2/3 h-1 mx-auto mt-4 mb-2 sm:mx-0 bg-gradient-to-r from-primary-600 to-secondary-600"></div>

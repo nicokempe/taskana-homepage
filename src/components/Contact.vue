@@ -22,7 +22,7 @@
               <img
                 class="absolute object-cover w-full h-full rounded-full sm:rounded-none sm:rounded-l-md"
                 src="mustapha.jpg"
-                alt="Mustapha Zorgati - Taskana expert"
+                alt="Mustapha Zorgatit - Taskana expert"
               />
             </div>
             <div class="p-4 my-auto text-center info sm:text-left">

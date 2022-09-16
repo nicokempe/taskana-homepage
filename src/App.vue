@@ -9,7 +9,8 @@
     <Contact />
     <Footer />
   </div>
-  <!-- 
+  <!--
+  This is a test 
   <div class="options fixed bottom-0 right-0 mb-6 mr-4 hidden xl:flex items-center ">
     <LanguageSwitcher class="mr-2" />
     <ThemeSwitcher class="mr-2" />

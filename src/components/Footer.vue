@@ -73,7 +73,7 @@
     <div class="footer">
       <div class="content-wrapper sm:flex-row flex flex-col flex-wrap px-5 py-4 mx-auto">
         <p class="dark:text-gray-400 sm:text-left text-sm font-medium text-center text-gray-600">
-          © 2021 Novatec GmbH
+          © 2021 Novatec Consulting GmbH
         </p>
         <p class="sm:my-0 dark:text-gray-400 sm:text-left mt-2 ml-4 text-sm font-medium text-center text-gray-600">
           <a href="https://www.novatec-gmbh.de/impressum/">{{ $t('footer.imprint') }}</a>

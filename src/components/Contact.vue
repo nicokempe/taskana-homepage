@@ -21,14 +21,14 @@
             <div class="relative w-48 h-48 pt-2 mx-auto avatar sm:pt-0 sm:h-auto sm:w-64 sm:mx-0">
               <img
                 class="absolute object-cover w-full h-full rounded-full sm:rounded-none sm:rounded-l-md"
-                src="mustapha.jpg"
-                alt="Mustapha Zorgati - Taskana expert"
+                src="alex.jpg"
+                alt="Alexander Rolfes - Taskana expert"
               />
             </div>
             <div class="p-4 my-auto text-center info sm:text-left">
-              <p class="mb-1 text-lg font-bold tracking-tight uppercase name">Mustapha Zorgati</p>
-              <p class="text-gray-600">Consultant</p>
-              <p class="text-gray-600">Business Process Management</p>
+              <p class="mb-1 text-lg font-bold tracking-tight uppercase name">Alexander Rolfes</p>
+              <p class="text-gray-600">Principal Software Engineer</p>
+              <p class="text-gray-600">Business Area Software Development</p>
               <div class="w-2/3 h-1 mx-auto mt-4 mb-2 sm:mx-0 bg-gradient-to-r from-primary-600 to-secondary-600"></div>
               <div class="text-gray-700">
                 <svg
@@ -45,8 +45,8 @@
                     d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
                   ></path>
                 </svg>
-                <a class="select-all hover:text-secondary-600" href="mailto:mustapha.zorgati@novatec-gmbh.de">
-                  mustapha.zorgati@novatec-gmbh.de
+                <a class="select-all hover:text-secondary-600" href="mailto:alexander.rolfes@novatec-gmbh.de">
+                  alexander.rolfes@novatec-gmbh.de
                 </a>
               </div>
               <div class="text-gray-700">
@@ -64,8 +64,8 @@
                     d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                   ></path>
                 </svg>
-                <a class="hidden select-all sm:inline-block">+49 175 9205 059</a>
-                <a href="tel:+491759205059" class="inline-block select-all sm:hidden">+49 175 9205 059</a>
+                <a class="hidden select-all sm:inline-block">+49 1515 117 85 29</a>
+                <a href="tel:+491759205059" class="inline-block select-all sm:hidden">+49 1515 117 85 29</a>
               </div>
             </div>
           </div>

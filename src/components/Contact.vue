@@ -28,7 +28,6 @@
             <div class="p-4 my-auto text-center info sm:text-left">
               <p class="mb-1 text-lg font-bold tracking-tight uppercase name">Alexander Rolfes</p>
               <p class="text-gray-600">Principal Software Engineer</p>
-              <p class="text-gray-600">Business Area Software Development</p>
               <div class="w-2/3 h-1 mx-auto mt-4 mb-2 sm:mx-0 bg-gradient-to-r from-primary-600 to-secondary-600"></div>
               <div class="text-gray-700">
                 <svg
@@ -83,7 +82,6 @@
             <div class="p-4 my-auto text-center info sm:text-left">
               <p class="mb-1 text-lg font-bold tracking-tight uppercase name">Thorsten Jakoby</p>
               <p class="text-gray-600">Director Technology Expertise</p>
-              <p class="text-gray-600">Business Area Directors</p>
               <div class="w-2/3 h-1 mx-auto mt-4 mb-2 sm:mx-0 bg-gradient-to-r from-primary-600 to-secondary-600"></div>
               <div class="text-gray-700">
                 <svg

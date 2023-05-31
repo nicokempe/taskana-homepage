@@ -14,7 +14,7 @@
 
       <a
         class="flex items-center mr-4 group link"
-        href="https://taskana.mybluemix.net/taskana/"
+        href="https://taskana.azurewebsites.net/taskana"
         target="_blank"
         title="Taskana Demo"
       >

@@ -19,7 +19,7 @@
           <h2 class="link-header">TASKANA</h2>
           <nav class="mb-10 list-none">
             <li>
-              <a href="https://taskana.mybluemix.net/taskana/" target="_blank">{{ $t('footer.taskana.link1') }}</a>
+              <a href="https://taskana.azurewebsites.net/taskana" target="_blank">{{ $t('footer.taskana.link1') }}</a>
             </li>
             <li>
               <a href="https://taskana.atlassian.net/wiki/spaces/TAS/overview" target="_blank">

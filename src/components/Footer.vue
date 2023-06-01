@@ -1,5 +1,5 @@
 <template>
-  <Privacy v-if="isPrivacyShown" @close="closePrivacy()" />
+  <component v-if="isPrivacyShown" @close="closePrivacy()" :is="$i18n.locale === 'de' ? 'PrivacyDe' : 'PrivacyEn'"></component>
   <footer class="body-font text-gray-600">
     <div
       class="content-wrapper md:items-center lg:items-start md:flex-row md:flex-nowrap flex flex-col flex-wrap px-5 py-12 mx-auto"
@@ -165,9 +165,11 @@
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component'
 import Logo from '@/core/Logo.vue'
-import Privacy from '@/components/Privacy.vue'
+import PrivacyDe from '@/components/PrivacyDe.vue'
+import PrivacyEn from '@/components/PrivacyEn.vue'
+
 @Options({
-  components: { Logo, Privacy }
+  components: { Logo, PrivacyDe, PrivacyEn }
 })
 export default class Footer extends Vue {
   isPrivacyShown = false

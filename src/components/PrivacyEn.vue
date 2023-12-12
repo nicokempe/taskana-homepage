@@ -27,37 +27,38 @@
       </div>
       <div class="max-h-screen overflow-auto">
         <div class="flex flex-row flex-wrap items-center justify-center px-4 mt-12 lg:justify-start">
-          Herzlich Willkommen auf der Internetpräsenz www.taskana.pro der Novatec Consulting GmbH.
-          Der Schutz Ihrer personenbezogenen Daten ist uns ein besonderes Anliegen. Daher halten wir
-          uns beim Erheben und Verarbeiten Ihrer personenbezogenen Daten streng an die gesetzlichen Vorgaben.
-          Nachfolgend wollen wir Sie ausführlich über Umfang und Zweck der Datenerhebung auf unserer Website informieren.
+          Welcome to the website www.taskana.pro of Novatec Consulting GmbH. The protection of your
+          personal data is of particular concern to us.
+          Therefore, we strictly adhere to the legal requirements when collecting and processing your
+          personal data. In the following, we would like to inform you in detail about the scope and
+          purpose of data collection on our website.
         </div>
         <div class="items-center justify-center px-4 mt-12 lg:justify-start">
           <h2 class="text-xl font-bold leading-none tracking-tight sm:text-xl lg:text-xl ">
-            Verantwortliche Stelle
+            Responsible body
           </h2>
           <p>
             <br/>
-            Novatec Consulting GmbH<br/>
+            <b>Novatec Consulting GmbH</b><br/>
             Bertha-Benz-Platz 1<br/>
             D-70771 Leinfelden-Echterdingen<br/>
             <br/>
-            Geschäftsführung: Rita Ehses, Dominik Meyer, Michael Schuchart
+            Management: Rita Ehses, Dominik Meyer, Michael Schuchart
           </p>
         </div>
         <div class="items-center justify-center px-4 mt-12 lg:justify-start">
           <h2 class="text-xl font-bold leading-none tracking-tight sm:text-xl lg:text-xl ">
-            Datenschutzbeauftragte
+            Data Protection Officer
           </h2>
           <p>
             <br/>
-            Wenn Sie Fragen hinsichtlich der Verarbeitung Ihrer persönlichen Daten haben, können Sie
-            sich direkt an unsere externen Beauftragten für den Datenschutz wenden, die auch im Falle
-            von Auskunftsersuchen, Anträgen oder Beschwerden zur Verfügung steht:
+            If you have any questions regarding the processing of your personal data, you can
+            contact our external data protection officers directly, who are also available in the
+            event of requests for information, applications or complaints:
             <br/>
             <br/>
-            Persönlich/Vertraulich<br/>
-            z. Hd. Datenschutzbeauftragten<br/>
+            Personal/Confidential<br/>
+            for the attention of the Data Protection Officer<br/>
             c/o Novatec Consulting GmbH<br/>
             Bertha-Benz-Platz 1<br/>
             D-70771 Leinfelden-Echterdingen<br/>
@@ -70,82 +71,83 @@
         </div>
         <div class="items-center justify-center px-4 mt-12 lg:justify-start">
           <h2 class="text-2xl font-bold leading-none tracking-tight sm:text-2xl lg:text-2xl ">
-            1 Grundsatz der anonymen Datenverwendung
+            1 Principle of anonymous data use
           </h2>
           <br/>
           <p>
-          Die Nutzung unserer Webseite ist grundsätzlich ohne eine Angabe von personenbezogenen Daten
-          möglich. Für die Nutzung einzelner Services unserer Seite können sich hierfür abweichende
-          Regelungen ergeben, die in diesem Falle nachstehend gesondert erläutert werden. Die rechtlichen
-          Grundlagen des Datenschutzes finden Sie im Bundesdatenschutzgesetz (BDSG) und dem Telemediengesetz (TMG).
+          The use of our website is generally possible without providing personal data. For the use
+          of individual services on our site, different regulations may apply, which are explained
+          separately below in this case. The legal basis for data protection can be found in the
+          Federal Data Protection Act (BDSG) and the Telecommunications Telemedia Data Protection
+          Act (TTDSG).
           </p>
           <br/>
           <p>
-          Beim Aufruf unserer Webseite werden einige Informationen übertragen, wie z. B. IP-Adresse.
-          Sie geben auch Auskunft über das genutzte Endgerät (Computer, Smartphone, Tablet, etc.),
-          den verwendeten Browser (Internet-Explorer, Safari, Firefox, etc.), den Zeitpunkt des
-          Zugriffs auf die Webseite, den sog. Referrer und übertragenen Datenmengen.
+          When you access our website, some information is transmitted, such as IP address. They
+          also provide information about the end device used (computer, smartphone, tablet, etc.),
+          the browser used (Internet Explorer, Safari, Firefox, etc.), the time of access to the
+          website, the so-called referrer and transferred data volumes.
           </p>
           <br/>
           <p>
-          Diese Daten können von uns nicht dazu verwendet werden, den einzelnen Nutzer zu identifizieren.
-          Die Informationen dienen uns dafür, die Attraktivität unserer Webseite zu ermitteln und deren
-          Leistung bzw. Inhalte gegebenenfalls zu verbessern und für Sie noch interessanter zu gestalten.
+          We cannot use this data to identify individual users. The information is used by us to
+          determine the attractiveness of our website and, if necessary, to improve its performance
+          or content and make it even more interesting for you.
           </p>
           <br/>
           <p>
-          Wir weisen jedoch darauf hin, dass bei einer statischen IP-Adresse über eine RIPE-Abfrage
-          im Einzelfall ein Personenbezug möglich ist, was wir jedoch nicht tun. Dennoch ist diese
-          Webseite sowohl statisch als auch dynamisch vergebenen IP-Adressen zugänglich.
+          However, we would like to point out that in the case of a static IP address, a personal
+          reference is possible in individual cases via a RIPE query, but we do not do this.
+          Nevertheless, this website is accessible to both statically and dynamically assigned
+          IP addresses.
           </p>
         </div>
         <div class="items-center justify-center px-4 mt-12 lg:justify-start">
           <h2 class="text-2xl font-bold leading-none tracking-tight sm:text-2xl lg:text-2xl ">
-            2 Personenbezogene Daten
+            2 Personal data
           </h2>
           <br/>
           <p>
-          In der EU-Datenschutz-Grundverordnung (DSGVO), sind personenbezogene Daten folgendermaßen definiert:
+          In the EU General Data Protection Regulation (GDPR), personal data is defined as follows:
           </p>
           <br/>
           <p>
-          Alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person
-          (im Folgenden „betroffene Person“) beziehen. Als identifizierbar wird eine natürliche Person
-          angesehen, die direkt oder indirekt, insbesondere mittels Zuordnung zu einer Kennung wie
-          einem Namen, zu einer Kennnummer, zu Standortdaten, zu einer Online-Kennung oder zu einem
-          oder mehreren besonderen Merkmalen identifiziert werden kann, die Ausdruck der physischen,
-          physiologischen, genetischen, psychischen, wirtschaftlichen, kulturellen oder sozialen
-          Identität dieser natürlichen Person sind.
-          </p>
-        </div>
-        <div class="items-center justify-center px-4 mt-12 lg:justify-start">
-          <h2 class="text-2xl font-bold leading-none tracking-tight sm:text-2xl lg:text-2xl ">
-            3 Datenlöschung und Speicherdauer
-          </h2>
-          <br/>
-          <p>
-          Ihre personenbezogenen Daten werden gelöscht oder gesperrt, sobald der Zweck der Speicherung
-          entfällt. Eine Speicherung kann darüber hinaus dann erfolgen, wenn dies durch den europäischen
-          oder nationalen Gesetzgeber in unionsrechtlichen Verordnungen, Gesetzen oder sonstigen
-          Vorschriften, denen die Verantwortliche unterliegt, vorgesehen wurde. Eine Sperrung oder
-          Löschung der Daten erfolgt auch dann, wenn eine durch die genannten Normen vorgeschriebene
-          Speicherfrist abläuft, es sei denn, dass eine Erforderlichkeit zur weiteren Speicherung der
-          Daten für einen Vertragsabschluss oder eine Vertragserfüllung besteht.
+          Any information relating to an identified or identifiable natural person (hereinafter
+          "data subject"). An identifiable natural person is one who can be identified, directly
+          or indirectly, in particular by reference to an identifier such as a name, an
+          identification number, location data, an online identifier or to one or more factors
+          specific to the physical, physiological, genetic, mental, economic, cultural or social
+          identity of that natural person.
           </p>
         </div>
         <div class="items-center justify-center px-4 mt-12 lg:justify-start">
           <h2 class="text-2xl font-bold leading-none tracking-tight sm:text-2xl lg:text-2xl ">
-            4 Kontaktmöglichkeiten
+            3 Data deletion and storage period:
           </h2>
           <br/>
           <p>
-          Sie haben die Möglichkeit uns bei Fragen, Wünschen und Anregungen zu kontaktieren. Dies können
-          Sie u.a. per E-Mail oder telefonisch tun. In diesem Fall werden die von Ihnen gemachten
-          Angaben zum Zwecke der Bearbeitung Ihrer Kontaktaufnahme gespeichert. Darüber hinaus erfolgt
-          ein Abgleich der so erhobenen Daten mit Daten, die möglicherweise anderweitig von uns erhoben
-          werden, wenn Sie uns vorher eine entsprechende Einwilligung erteilt haben, die Sie jederzeit
-          mit Wirkung für die Zukunft widerrufen können. Für die Ausübung des Widerrufs wenden Sie
-          sich bitte an die am Ende dieser Erklärung genannte Stelle.
+          Your personal data will be deleted or blocked as soon as the purpose of the storage no
+          longer applies. In addition, storage may take place if this has been provided for by
+          the European or national legislator in Union regulations, laws or other provisions to
+          which the responsible party is subject. The data will also be blocked or deleted if a
+          storage period prescribed by the aforementioned standards expires, unless there is a
+          necessity for the continued storage of the data for the conclusion or fulfilment of a
+          contract.
+          </p>
+        </div>
+        <div class="items-center justify-center px-4 mt-12 lg:justify-start">
+          <h2 class="text-2xl font-bold leading-none tracking-tight sm:text-2xl lg:text-2xl ">
+            4 Contact options
+          </h2>
+          <br/>
+          <p>
+          You have the possibility to contact us with questions, wishes and suggestions. You can do
+          this by e-mail or telephone, among other things. In this case, the information you
+          provide will be stored for the purpose of processing your contact. In addition, the
+          data collected in this way will be compared with data that may be collected elsewhere
+          by us if you have given us your consent beforehand, which you can revoke at any time
+          with effect for the future. To exercise the revocation, please contact the office
+          named at the end of this statement.
           </p>
         </div>
         <div class="items-center justify-center px-4 mt-12 lg:justify-start">
@@ -154,12 +156,11 @@
           </h2>
           <br/>
           <p>
-          Wir haben in unsere Webseite einen Link zur Taskana Seite bei Github eingebunden. Dabei
-          handelt es sich um ein Internet-Lesezeichen, mit denen die Nutzer eines solchen Dienstes
-          Links und Nachrichtenmeldungen sammeln können. Nach dem Anklicken der eingebundenen Grafik
-          werden Sie auf die Seite von GitHub weitergeleitet, d.h. erst dann werden Nutzerinformationen
-          an den Anbieter übertragen. Informationen zum Umgang mit Ihren personenbezogenen Daten bei
-          Nutzung dieser Webseiten entnehmen Sie bitte den Datenschutzbestimmungen von Github
+          We have included a link to the Taskana page on Github on our website. This is an internet
+          bookmark with which users of such a service can collect links and news reports. After
+          clicking on the embedded graphic, you will be redirected to the GitHub page, i.e. only
+          then will user information be transmitted to the provider. For information on how your
+          personal data is handled when using these websites, please refer to the Github privacy policy
           (
           <a class="select-all hover:text-secondary-600" href="https://docs.github.com/en/github/site-policy/github-privacy-statement">
           https://docs.github.com/en/github/site-policy/github-privacy-statement
@@ -169,64 +170,63 @@
         </div>
         <div class="items-center justify-center px-4 mt-12 lg:justify-start">
           <h2 class="text-2xl font-bold leading-none tracking-tight sm:text-2xl lg:text-2xl ">
-            6 Datenübermittlung an Dritte
+            6 Data transmission to third parties
           </h2>
           <br/>
           <h2 class="text-xl font-bold leading-none tracking-tight sm:text-xl lg:text-xl ">
-            Datenübermittlung an andere Konzernunternehmen
+            Data transmission to other group companies
           </h2>
           <br/>
           <p>
-            Eine Übermittlung Ihrer Daten an Dritte außerhalb der Novatec Gruppe findet grundsätzlich
-            nicht statt, es sei denn, wir sind gesetzlich dazu verpflichtet, oder die Datenweitergabe
-            ist zur Durchführung des Vertragsverhältnisses erforderlich oder Sie haben zuvor ausdrücklich
-            in die Weitergabe Ihrer Daten eingewilligt. Externe Dienstleister und Partnerunternehmen
-            erhalten Ihre Daten nur, soweit dies zur Abwicklung ihrer Anfrage erforderlich ist. In
-            diesen Fällen beschränkt sich der Umfang der übermittelten Daten jedoch auf das
-            erforderliche Minimum.
+            As a matter of principle, your data will not be transferred to third parties outside the
+            Novatec Group unless we are legally obliged to do so, or the transfer of data is
+            necessary for the performance of the contractual relationship, or you have previously
+            expressly consented to the transfer of your data. External service providers and partner
+            companies only receive your data insofar as this is necessary to process your request.
+            In these cases, however, the scope of the transmitted data is limited to the necessary minimum.
           </p>
           <br/>
           <h2 class="text-xl font-bold leading-none tracking-tight sm:text-xl lg:text-xl ">
-            Datenübermittlung an externe Dienstleister
+            Data transfer to external service providers
           </h2>
           <br/>
           <p>
-            Ihre Daten werden Dienstleistungspartner weitergegeben, sofern diese in unserem Auftrag
-            tätig sind und die Novatec Consulting GmbH bei der Erbringung ihrer Dienste unterstützen.
+            Your data will be passed on to service partners insofar as they act on our behalf and
+            support Novatec Consulting GmbH in the provision of its services.
           </p>
           <br/>
           <p>
-            Eine Verarbeitung Ihrer personenbezogenen Daten durch beauftragte Dienstleister erfolgt
-            im Rahmen der Auftragsverarbeitung gem. Art. 28 DSGVO.
+            Processing of your personal data by commissioned service providers takes place within
+            the framework of commissioned processing pursuant to Art. 28 DSGVO.
           </p>
           <br/>
           <p>
-            Die zuvor genannten Dienstleister erhalten lediglich Zugang zu solchen persönlichen
-            Informationen, die zur Erfüllung der jeweiligen Tätigkeit erforderlich sind. Es ist diesen
-            Dienstleistern untersagt, Ihre persönlichen Informationen weiterzugeben oder zu anderen
-            Zwecken zu verwenden, insbesondere zu eigenen werblichen Zwecken.
+            The aforementioned service providers will only have access to such personal information
+            as is necessary for the performance of their respective activities. These service
+            providers are prohibited from disclosing your personal information or using it for
+            other purposes, in particular for their own promotional purposes.
           </p>
           <br/>
           <p>
-            Soweit externe Dienstleister mit Ihren personenbezogenen Daten in Berührung kommen, haben
-            wir durch rechtliche, technische und organisatorische Maßnahmen sowie durch regelmäßige
-            Kontrollen sichergestellt, dass auch diese die geltenden Datenschutzvorschriften einhalten.
+            Where external service providers come into contact with your personal data, we have
+            taken legal, technical and organisational measures, as well as regular checks, to
+            ensure that they also comply with the applicable data protection regulations.
           </p>
           <br/>
           <p>
-            Eine kommerzielle Weitergabe Ihrer personenbezogenen Daten an andere Unternehmen erfolgt nicht.
+            Your personal data will not be passed on commercially to other companies.
           </p>
         </div>
         <div class="items-center justify-center px-4 mt-12 lg:justify-start">
           <h2 class="text-2xl font-bold leading-none tracking-tight sm:text-2xl lg:text-2xl ">
-            7 Webseitenoptimierungstools
+            7 Website optimisation tools
           </h2>
           <br/>
           <p>
-          Die Erhebung Ihrer personenbezogenen Daten über Webseitenoptimierungstools auf unserer Webseite
-          beruht auf Ihrer Einwilligung nach Artikel 6 Abs. 1 lit. a DSGVO. Sie können Ihre Einwilligung
-          jederzeit mit Wirkung für die Zukunft widerrufen. Die Rechtmäßigkeit der aufgrund der Einwilligung
-          bis zum Widerruf erfolgten Verarbeitung bleibt davon unberührt
+          The collection of your personal data via website optimisation tools on our website is
+          based on your consent pursuant to Article 6 (1) lit. a DSGVO. You can revoke your
+          consent at any time with effect for the future. The lawfulness of the processing
+          carried out on the basis of the consent until the revocation remains unaffected by this.
           </p>
           <br/>
           <h2 class="text-xl font-bold leading-none tracking-tight sm:text-xl lg:text-xl ">
@@ -234,105 +234,148 @@
           </h2>
           <br/>
           <p>
-            Diese Seite benutzt keine Cookies.
+            This site does not use cookies.
           </p>
         </div>
         <div class="items-center justify-center px-4 mt-12 lg:justify-start">
           <h2 class="text-2xl font-bold leading-none tracking-tight sm:text-2xl lg:text-2xl ">
-            8 Sicherheit
+            8 Social Bookmarks
           </h2>
           <br/>
           <p>
-          Wir setzen technische und organisatorische Sicherheitsmaßnahmen ein, um Ihre durch uns
-          verwalteten Daten gegen Manipulationen, Verlust, Zerstörung und gegen den Zugriff Dritter
-          zu schützen. Unsere Sicherheitsmaßnahmen werden entsprechend der technologischen Entwicklung
-          im Internet laufend verbessert. Ihre Daten werden mit den gängigsten und sichersten
-          Übertragungsverfahren im Internet verschlüsselt.
+          So-called social bookmarks of the following providers are integrated on our website:
+          </p>
+          <p>
+            <ul>
+              <li>Facebook (Betreiber: Facebook Inc., 1601 S. California Ave, Palo Alto, CA 94304, USA</li>
+              <li>X (Betreiber: X Corp., X Corp ., 1355 Market Street, Suite 900, San Francisco, CA 94103, USA)</li>
+              <li>Xing (New Work SE, Am Strandkai 1, 20457 Hamburg)</li>
+              <li>LinkedIn (LinkedIn Irland Unlimited Company, Wilton Place, Dublin 2, Irland)</li>
+            </ul>
+          </p>
+          <p>
+            Social bookmarks are Internet bookmarks that allow users of such a service to collect
+            links and news stories. These are only embedded on our website as a link to the
+            corresponding services. After clicking on the embedded graphic, you will be redirected
+            to the page of the respective provider, i.e. only then will user information be
+            transmitted to the respective provider. For information on how your personal data is
+            handled when using these websites, please refer to the respective provider's privacy policy.
           </p>
         </div>
         <div class="items-center justify-center px-4 mt-12 lg:justify-start">
           <h2 class="text-2xl font-bold leading-none tracking-tight sm:text-2xl lg:text-2xl ">
-            9 Rechte der Betroffenen
+            9 Security
           </h2>
           <br/>
           <p>
-          Ihnen stehen folgende Rechte uns gegenüber zu:
+          We use technical and organisational security measures to protect the data we have under
+          our control against manipulation, loss, destruction and against access by third parties.
+          Our security measures are continuously improved in line with technological developments
+          on the Internet. Your data is encrypted using the most common and secure transmission
+          methods on the Internet.
+          </p>
+        </div>
+        <div class="items-center justify-center px-4 mt-12 lg:justify-start">
+          <h2 class="text-2xl font-bold leading-none tracking-tight sm:text-2xl lg:text-2xl ">
+            10 Rights of the data subjects
+          </h2>
+          <br/>
+          <p>
+          You have the following rights against us:
           </p>
           <br/>
           <p>
-          Recht auf Berichtigung<br/>
+          Right to information<br/>
           <br/>
-          Sind Ihre Daten, die wir von Ihnen erfasst haben unrichtig oder unvollständig, können Sie
-          von uns unverzüglich Berichtigung nach Artikel 16 DSGVO verlangen.
+          You can ask us to confirm whether personal data relating to you is being processed by us.
+          If we have processed data relating to you, you have further rights of access set out in Article 15 of the GDPR.
           </p>
           <br/>
           <p>
-          Recht auf Einschränkung der Verarbeitung<br/>
+          Right of rectification<br/>
           <br/>
-          Unter den Voraussetzungen des Artikels 18 DSGVO können Sie zudem unter Umständen auch die
-          Einschränkung der Verarbeitung der Sie betreffenden personenbezogenen Daten verlangen.
-          <br/>
-          Nach der Einschränkung dürfen Ihre Daten nur mit Ihrer Einwilligung oder zur Geltendmachung,
-          Ausübung oder Verteidigung von Rechtsansprüchen, oder zum Schutz der Rechte einer anderen
-          natürlichen oder juristischen Person, oder aus Gründen eines wichtigen öffentlichen Interesses
-          der Union oder eines Mitgliedstaats verarbeitet werden. Wir unterrichten Sie bevor die
-          Einschränkung aufgehoben wird.
+          If the data we have collected from you is incorrect or incomplete, you may request that
+          we correct it without delay in accordance with Article 16 of the GDPR.
           </p>
           <br/>
           <p>
-          Recht auf Löschung<br/>
+          Right to restrict processing<br/>
           <br/>
-          Sie können bei Vorliegen von einem der Gründe aus Artikel 17 Abs. 1 DSGVO von uns die
-          unverzügliche Löschung der Sie betreffenden personenbezogenen Daten verlangen, es sei denn
-          es besteht eine Ausnahme von der Löschpflicht nach Artikel 17 Abs. 3 DSGVO.
+          Under the conditions of Article 18 of the GDPR, you may also be able to request the
+          restriction of the processing of personal data relating to you.
+          <br/>
+          After restriction, your data may only be processed with your consent or for the
+          establishment, exercise or defence of legal claims, or for the protection of the
+          rights of another natural or legal person, or for reasons of substantial public
+          interest of the Union or a Member State. We will inform you before the restriction is lifted.
           </p>
           <br/>
           <p>
-          Recht auf Unterrichtung<br/>
+          Right to erasure<br/>
           <br/>
-          Haben Sie das Recht auf Berichtigung, Löschung oder Einschränkung der Verarbeitung gegenüber
-          uns geltend gemacht, sind wir gemäß Artikel 19 DSGVO verpflichtet allen Empfängern Ihrer
-          personenbezogenen Daten dies mitzuteilen, außer die Mitteilung ist unmöglich oder mit
-          unverhältnismäßigem Aufwand verbunden. Sie haben zudem das Recht über die Empfänger unterrichtet
-          zu werden. Ihnen steht außerdem das Recht zu, über diese Empfänger unterrichtet zu werden.
+          If one of the reasons set out in Article 17 (1) DSGVO applies, you may demand that we
+          delete the personal data relating to you without delay, unless there is an exception
+          to the obligation to delete in accordance with Article 17 (3) DSGVO.
           </p>
           <br/>
           <p>
-          Recht auf Datenübertragbarkeit <br/>
+          Right to information<br/>
           <br/>
-          Außerdem haben Sie nach Artikel 20 DSGVO das Recht, von uns die Sie betreffenden
-          personenbezogenen Daten, in maschinenlesbaren Format zu erhalten und die Daten einem anderen
-          Verantwortlichen ohne Behinderung zu übermitteln, sofern die Voraussetzungen des
-          Artikel 20 Abs. 1 lit. a DSGVO vorliegen, oder zu erwirken, dass Ihre personenbezogenen
-          Daten direkt von uns einem anderen Verantwortlichen übermittelt werden, soweit dies technisch
-          machbar ist und keine Freiheiten und Rechte anderer Personen dadurch beeinträchtigt werden.
-          Dieses Recht gilt nicht für eine Verarbeitung personenbezogener Daten, die zur Wahrnehmung
-          einer Aufgabe im öffentlichen Interesse, oder zur Ausübung öffentlicher Gewalt erforderlich ist.
+          If you have asserted the right to rectification, erasure or restriction of processing
+          against us, we are obliged under Article 19 of the GDPR to inform all recipients of
+          your personal data of this, unless the notification is impossible or involves a
+          disproportionate effort. You also have the right to be informed about the recipients.
+          You also have the right to be informed about these recipients.
           </p>
           <br/>
           <p>
-          Widerspruchsrecht <br/>
+          Right to data portability<br/>
           <br/>
-          Sie haben das Recht jederzeit gegenüber der Novatec Consulting GmbH Widerspruch gegen die
-          Verarbeitung der Sie betreffenden personenbezogenen Daten nach Art. 6 Abs. 1 lit. f DSGVO
-          einzulegen.<br/>
-          Wir verarbeiten Ihre personenbezogenen Daten nicht mehr, es sei denn, schutzwürdige Gründe
-          für die Verarbeitung überwiegen Ihre Interessen, Rechte und Freiheiten, oder die Verarbeitung
-          dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.
+          In addition, according to Article 20 of the GDPR, you have the right to obtain from us
+          the personal data concerning you in a machine-readable format and to transfer the data
+          to another controller without hindrance, provided that the conditions of Article 20(1)(a)
+          of the GDPR are met, or to have your personal data transferred directly from us to
+          another controller, insofar as this is technically feasible and no freedoms and rights
+          of other persons are thereby impaired. This right does not apply to the processing of
+          personal data necessary for the performance of a task carried out in the public interest
+          or for the exercise of official authority.
           </p>
           <br/>
           <p>
-          Recht auf Beschwerde bei der Aufsichtsbehörde <br/>
+          Right of objection <br/>
           <br/>
-          Sie haben das Recht auf Beschwerde bei einer Aufsichtsbehörde.<br/>
-
-          Die für die Novatec Consulting GmbH zuständige Datenschutzbehörde ist: Der Landesbeauftragte
-          für den Datenschutz und die Informationsfreiheit Baden-Württemberg; Lautenschlagerstraße
-          20; 70173 Stuttgart.
+          You have the right to object at any time to Novatec Consulting GmbH processing of personal
+          data relating to you in accordance with Art. 6 (1) lit. f DSGVO.
+          <br/>
+          We will no longer process your personal data unless legitimate grounds for the processing
+          override your interests, rights and freedoms, or the processing serves to assert, exercise or defend legal claims.
           </p>
           <br/>
           <p>
-          Stand: Mai 2023<br/>
+          Right to complain to the supervisory authority <br/>
+          <br/>
+          You have the right to complain to a supervisory authority.
+          <br/>
+          The data protection authority responsible for Novatec Consulting GmbH is: The State
+          Commissioner for Data Protection and Freedom of Information Baden-Württemberg;
+          Lautenschlagerstraße 20; 70173 Stuttgart.
+          </p>
+          <br/>
+        </div>
+        <div class="items-center justify-center px-4 mt-12 lg:justify-start">
+          <h2 class="text-2xl font-bold leading-none tracking-tight sm:text-2xl lg:text-2xl ">
+            11 Links to websites of others
+          </h2>
+          <br/>
+          <p>
+          Our websites may contain links to websites of other providers to which this data
+          protection declaration does not extend. Insofar as the collection, processing or use
+          of personal data is associated with the use of the websites of other providers, please
+          observe the data protection information of the respective providers.
+          </p>
+          <br/>
+          <p>
+          Status: May 2023<br/>
           </p>
         </div>
         <div class="items-center justify-center px-4 mt-12 lg:justify-start">
